@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
-function Footer() {
+function Contact() {
+    document.title = "Klõps | Kontakt";
   return (
     <footer class="footer">
       <div class="footer-container">
@@ -16,4 +17,4 @@ function Footer() {
   );
 };
 
-export default Footer;
+export default Contact;

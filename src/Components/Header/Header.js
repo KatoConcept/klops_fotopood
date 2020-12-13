@@ -1,37 +1,38 @@
+import { Link } from "react-router-dom";
+
 function Header() {
-  document.title = "Klõps | Avaleht";
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <a href="#">
+        <Link to="/">
           <img src="./img/logo1_png.png" height="30px" alt="" />
-        </a>
+        </Link>
         <ul className="nav_list">
           <li className="nav_item">
-            <a href="/" className="nav_link">
+            <Link to="/" className="nav_link">
               AVALEHT
-            </a>
+            </Link>
           </li>
           <li className="nav_item">
-            <a href="#" className="nav_link">
+            <Link to="/products" className="nav_link">
               TOOTED
-            </a>
+            </Link>
           </li>
           <li className="nav_item">
-            <a href="#" className="nav_link">
+            <Link to="/about" className="nav_link">
               MEIST
-            </a>
+            </Link>
           </li>
           <li className="nav_item">
-            <a href="#" className="nav_link">
+            <Link to="/contact" className="nav_link">
               KONTAKT
-            </a>
+            </Link>
           </li>
         </ul>
         <li className="nav_item" id="shopping-cart">
-          <a href="#" className="nav_link">
+          <Link to="#" className="nav_link">
             <i className="fa fa-shopping-cart" id="shopping-icon"></i>OSTUKORV
-          </a>
+          </Link>
         </li>
       </div>
     </nav>

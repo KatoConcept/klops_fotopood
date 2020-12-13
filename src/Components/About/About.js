@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
-function Footer() {
+function About() {
+    document.title = "Klõps | Meie";
   return (
     <footer class="footer">
       <div class="footer-container">
@@ -16,4 +17,4 @@ function Footer() {
   );
 };
 
-export default Footer;
+export default About;

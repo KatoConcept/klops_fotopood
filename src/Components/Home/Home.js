@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 function Home() {
+  document.title = "Klõps | Avaleht";
   return (
     <section className="main-page">
       <div className="main-container">
