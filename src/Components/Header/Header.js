@@ -1,4 +1,5 @@
 function Header() {
+  document.title = "Klõps | Avaleht";
   return (
     <nav className="navbar">
       <div className="navbar-container">

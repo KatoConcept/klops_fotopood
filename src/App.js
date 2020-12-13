@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import Products from "./Components/Products/Profucts";
@@ -28,6 +27,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      <Footer></Footer>
     </div>
   );
 }
