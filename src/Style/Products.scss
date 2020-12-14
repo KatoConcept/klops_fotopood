@@ -107,14 +107,19 @@
 
     .products-container {
         min-height: 400px;
-        background-color: lightgray;
+        // background-color: lightgray;
         margin: 0 auto;
         display: flex;
     }
 
     .products {
-
-        // flex-wrap: wrap;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        // background-color:lightpink;
+        width: 100%;
+        max-width: 2000px;
 
         a:hover {
             text-decoration: none;
@@ -122,18 +127,22 @@
     }
 
     .product-card {
-        margin: 10px;
+        margin: 50px;
         width: 350px;
         height: 400px;
         background-color: $main;
         position: relative;
+        box-shadow: 5px -5px 15px rgb(228, 228, 228);
+        transition: all ease 0.4s;
+    }
+
+    .product-card:hover {
+        box-shadow: unset;
     }
 
     .product-card-thumbnail {
         width: 100%;
         height: 250px;
-        background: url("../img/product-1.png");
-        background-size: cover;
     }
 
     .product-card-title {
@@ -147,9 +156,51 @@
         margin-left: 20px;
         color: white;
         position: absolute;
-        bottom: 4px;
+        bottom: 7px;
         font-size: 35px;
     }
+
+    #product-1-thumbnail {
+        background: url("../img/product-1.jpg");
+        background-size: cover;
+    }
+    #product-2-thumbnail {
+        background: url("../img/product-2.jpg");
+        background-size: cover;
+    }
+    #product-3-thumbnail {
+        background: url("../img/product-3.jpg");
+        background-size: cover;
+    }
+    #product-4-thumbnail {
+        background: url("../img/product-4.jpg");
+        background-size: cover;
+    }
+    #product-5-thumbnail {
+        background: url("../img/product-5.jpg");
+        background-size: cover;
+    }
+    #product-6-thumbnail {
+        background: url("../img/product-6.jpg");
+        background-size: cover;
+    }
+    #product-7-thumbnail {
+        background: url("../img/product-7.jpg");
+        background-size: cover;
+    }
+    #product-8-thumbnail {
+        background: url("../img/product-8.jpg");
+        background-size: cover;
+    }
+    #product-9-thumbnail {
+        background: url("../img/product-9.jpg");
+        background-size: cover;
+    }
+    #product-10-thumbnail {
+        background: url("../img/product-10.jpg");
+        background-size: cover;
+    }
+
 
 
 
