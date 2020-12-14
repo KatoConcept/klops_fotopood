@@ -200,7 +200,7 @@ function Products() {
                 </a>
               </div>
               <div className="product-card">
-                <a href="/">
+                <a href="/products/nikon_akulaadija_mh-25a_en-el15a">
                   <div className="product-card-thumbnail" id="product-9-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Nikon akulaadija MH-25a EN-EL15a</h2>
@@ -209,7 +209,7 @@ function Products() {
                 </a>
               </div>
               <div className="product-card">
-                <a href="/">
+                <a href="/products/nikon_valklamp_sb-700">
                   <div className="product-card-thumbnail" id="product-10-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Nikon välklamp SB-700</h2>

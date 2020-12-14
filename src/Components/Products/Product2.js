@@ -30,7 +30,7 @@ function Product2() {
                     </div>
                 </div>
                 <div className="product-main-info-wrap">
-                    <h1 className="product-name">Sigma 35mm f/1.4 DG HSM Art objektiiv Canonile</h1>
+                    <h1 className="product-name">Sigma 35mm f/1.4 DG HSM Art</h1>
                     <h1 className="description-title">Toote põhiinfo</h1>
                     <p className="product-description">
                         35 mm lainurkobjektiiv <br/>

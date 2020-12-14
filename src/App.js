@@ -9,6 +9,8 @@ import Product5 from "./Components/Products/Product5";
 import Product6 from "./Components/Products/Product6";
 import Product7 from "./Components/Products/Product7";
 import Product8 from "./Components/Products/Product8";
+import Product9 from "./Components/Products/Product9";
+import Product10 from "./Components/Products/Product10";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
@@ -53,6 +55,12 @@ function App() {
           </Route>
           <Route exact path="/products/sony_xqd_sd_kaardilugeja">
             <Product8 />
+          </Route>
+          <Route exact path="/products/nikon_akulaadija_mh-25a_en-el15a">
+            <Product9 />
+          </Route>
+          <Route exact path="/products/nikon_valklamp_sb-700">
+            <Product10 />
           </Route>
           <Route exact path="/contact">
             <Contact />
