@@ -137,7 +137,7 @@ function Products() {
                 </a>
               </div>
               <div className="product-card">
-              <a href="/">
+              <a href="/products/sigma_35mm_f_1_4">
                 <div className="product-card-thumbnail" id="product-2-thumbnail"></div>
                 <div className="product-info-wrap">
                   <h2 className="product-card-title">Sigma 35mm f/1.4</h2>

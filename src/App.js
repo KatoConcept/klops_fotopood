@@ -2,6 +2,7 @@ import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import Products from "./Components/Products/Products";
 import Product1 from "./Components/Products/Product1";
+import Product2 from "./Components/Products/Product2";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route exact path="/products/nikon_z7">
             <Product1 />
+          </Route>
+          <Route exact path="/products/sigma_35mm_f_1_4">
+            <Product2 />
           </Route>
           <Route exact path="/contact">
             <Contact />

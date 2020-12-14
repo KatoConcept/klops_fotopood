@@ -50,6 +50,86 @@ function Product1() {
                         Suurema Z-kinnituse ja lühema 16 mm ääriku fookuskauguse abil saavad NIKKOR Z-objektiivid rohkem valgust ja rikuvad traditsioonilisi „magusa koha“ reegleid. Maksimaalse teravuse saavutamiseks unustage peatumine - NIKKOR Z on parimad ja tagab teravuse nurgast nurka isegi kõige laiema ava korral.
                     </p>
                 </div>
+                <div className="spacer"></div>
+                <div className="product-info-wrap">
+                    <h1 className="overview-title">Toote andmed</h1>
+                    <div className="product-info-sides">
+                        <div className="left-info">
+                            <p className="info-description line-height" id="left-text">
+                                Toote tüüp <br/>
+                                Kaubamärk  <br/>
+                                Kaal  <br/>
+                                Megapikslite arv <br/>
+                                Maksimaalne eraldusvõime  <br/>
+                                Anduri tüüp <br/>
+                                Kaamera tundlikkus (ISO) <br/>
+                                Valge värvi bilanss  <br/>
+                                Pildi formaadid <br/>
+                                Katiku kiirus <br/>
+                                Optika <br/>
+                                Käsitsi fokuseerimine <br/>
+                                Käsitsi fokuseerimine <br/>
+                                Autofokuseerimise tüüp <br/>
+                                Diafragma <br/>
+                                Videootsija  <br/>
+                                Puutetundlik ekraan <br/>
+                                Ekraani diagonaal <br/>
+                                Ekraani eraldusvõime punktides <br/>
+                                Välk <br/>
+                                Võimalus ühendada väline välk<br/>
+                                Särituse kompenseerimine <br/>
+                                Pildistamisrežiimid <br/>
+                                Videoproportsioon<br/>
+                                Videosalvestuse kiirus<br/>
+                                Mikrofon <br/>
+                                Sisemälu <br/>
+                                Liidesed<br/>
+                                Navigatsiooni (GPS) funktsioon<br/>
+                                WiFi-liides<br/>
+                                Toide <br/>
+                                3D-pildistamine<br/>
+                                Täiendav info <br/>
+                            </p>
+                        </div>
+                        <div className="right-info">
+                            <p className="info-description line-height">
+                                Digitaalsed fotokaamerad<br/>
+                                Nikon<br/>
+                                585 g <br/>
+                                46.89<br/>
+                                8256 x 5504<br/>
+                                CMOS<br/>
+                                64 - 25600 <br/>
+                                Auto, 8 positsiooni + 1 käsitsi <br/>
+                                Linear PCM <br/>
+                                30 sek. - 1/8000 sek. <br/>
+                                Ei ole komplektis <br/>
+                                Jah <br/>
+                                Jah  	<br/>
+                                TTL Autofokuseerimine <br/>
+                                Sõltub valitud objektiivist <br/>
+                                On (elektrooniline pildiotsija)<br/>
+                                Jah <br/>
+                                3.2 "<br/>
+                                210000 <br/>
+                                Puudub <br/>
+                                Jah <br/>
+                                - 5 EV kuni + 5 EV sammuga 1/2 EV või 1/3 EV <br/>
+                                4K<br/>
+                                16:9, 1:1, 3:2, 4:5 <br/>
+                                1080p@24fps - 1080p@120fps, 2160p@24fps - 2160p@30fps<br/>
+                                On (Stereo) <br/>
+                                Ei <br/>
+                                Mini HDMI, USB, USB 3.0<br/>
+                                Ei <br/>
+                                Jah <br/>
+                                Aku<br/>
+                                Ei <br/>
+                                Bluetooth <br/>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )
