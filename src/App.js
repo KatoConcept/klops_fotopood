@@ -5,6 +5,8 @@ import Product1 from "./Components/Products/Product1";
 import Product2 from "./Components/Products/Product2";
 import Product3 from "./Components/Products/Product3";
 import Product4 from "./Components/Products/Product4";
+import Product5 from "./Components/Products/Product5";
+import Product6 from "./Components/Products/Product6";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
@@ -37,6 +39,12 @@ function App() {
           </Route>
           <Route exact path="/products/delkin_devices_64gb_premium_xqd_malukaart">
             <Product4 />
+          </Route>
+          <Route exact path="/products/nikon_nikkor_z_50mm_f_1_8_s">
+            <Product5 />
+          </Route>
+          <Route exact path="/products/nikon_ftz_lens_adapter_f_f-lens_to_z-kamera">
+            <Product6 />
           </Route>
           <Route exact path="/contact">
             <Contact />

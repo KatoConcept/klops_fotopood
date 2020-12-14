@@ -164,7 +164,7 @@ function Products() {
                 </a>
               </div>
               <div className="product-card">
-                <a href="/">
+                <a href="/products/nikon_nikkor_z_50mm_f_1_8_s">
                   <div className="product-card-thumbnail" id="product-5-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Nikon Nikkor Z 50mm f/1.8 S</h2>
@@ -173,7 +173,7 @@ function Products() {
                 </a>
               </div>
               <div className="product-card">
-                <a href="/">
+                <a href="/products/nikon_ftz_lens_adapter_f_f-lens_to_z-kamera">
                   <div className="product-card-thumbnail" id="product-6-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Nikon FTZ Lens Adapter f. F-Lens to Z-Kamera</h2>

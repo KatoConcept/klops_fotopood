@@ -36,7 +36,7 @@ function Product4() {
                         Versioon 2.0 - ühilduv kiirus <br/>
                         Sobib professionaalse fotograafi jaoks <br/>
                     </p>
-                    <h2 className="product-price">Hind: 29.90€</h2>
+                    <h2 className="product-price">Hind: 119.90€</h2>
                     <button className="btn add-cart-btn">Lisa ostukorvi</button>
                 </div>
                 <div className="spacer"></div>
