@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Products() {
   document.title = "Klõps | Tooted";

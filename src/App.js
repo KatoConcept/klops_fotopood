@@ -4,7 +4,8 @@ import Products from "./Components/Products/Products";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function App() {
   return (
