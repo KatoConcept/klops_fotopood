@@ -146,7 +146,7 @@ function Products() {
               </a>
               </div>
               <div className="product-card">
-                <a href="/">
+                <a href="/products/en-el15_lithium-ion_battery_pack_7_0V_1900mah">
                   <div className="product-card-thumbnail" id="product-3-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">EN-EL15 Lithium-Ion Battery Pack (7.0V, 1900mAh)</h2>
@@ -155,7 +155,7 @@ function Products() {
                 </a>
               </div>
               <div className="product-card">
-                <a href="/">
+                <a href="/products/delkin_devices_64gb_premium_xqd_malukaart">
                   <div className="product-card-thumbnail" id="product-4-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Delkin Devices 64GB Premium XQD Mälukaart</h2>

@@ -89,7 +89,7 @@
 
     .product-info-wrap {
         width: 100%;
-        min-height: 500px;
+        // min-height: 500px;
         // background-color: lightgray;
     }
 
@@ -116,5 +116,13 @@
         margin-top: 30px;
         color: $main;
         font-weight: 500;
+    }
+
+    .box-except {
+        width: 100%;
+    }
+
+    .info-except {
+        font-weight: 500 !important;
     }
 }

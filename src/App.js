@@ -3,6 +3,8 @@ import Home from "./Components/Home/Home";
 import Products from "./Components/Products/Products";
 import Product1 from "./Components/Products/Product1";
 import Product2 from "./Components/Products/Product2";
+import Product3 from "./Components/Products/Product3";
+import Product4 from "./Components/Products/Product4";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
@@ -29,6 +31,12 @@ function App() {
           </Route>
           <Route exact path="/products/sigma_35mm_f_1_4">
             <Product2 />
+          </Route>
+          <Route exact path="/products/en-el15_lithium-ion_battery_pack_7_0V_1900mah">
+            <Product3 />
+          </Route>
+          <Route exact path="/products/delkin_devices_64gb_premium_xqd_malukaart">
+            <Product4 />
           </Route>
           <Route exact path="/contact">
             <Contact />

@@ -40,7 +40,7 @@ function Product2() {
                         Canoni poolkaader- ja täiskaader peegelkaameratele<br/>
                     </p>
                     <h2 className="product-price">Hind: 749.90€</h2>
-                    <button class="btn add-cart-btn">Lisa ostukorvi</button>
+                    <button className="btn add-cart-btn">Lisa ostukorvi</button>
                 </div>
                 <div className="spacer"></div>
                 <div className="product-overview-wrap">
