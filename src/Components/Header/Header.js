@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <nav className="navbar">
-      <div className="navbar-container">
+      <div className="navbar-container view-width">
         <Link to="/">
           <img src="./img/logo1_png.png" height="30px" alt="" />
         </Link>

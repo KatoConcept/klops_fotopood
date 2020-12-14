@@ -5,10 +5,11 @@
     background-color: $main;
     height: 100px;
     margin-top: 20px;
+    z-index: 99;
 }
 
 .footer-container {
-    width: 90%;
+    // width: 90%;
     margin: 0 auto;
     align-items: center;
     display: flex;

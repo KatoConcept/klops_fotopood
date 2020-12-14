@@ -4,7 +4,7 @@ function Products() {
   document.title = "Klõps | Tooted";
   return (
       <section className="products-page">
-        <div className="main-container">
+        <div className="main-container view-width">
           <div className="spacer"></div>
           <div className="top-wrapper">
             <div className="top-left">
@@ -120,6 +120,20 @@ function Products() {
                   </div>
                 </div>
               </div>
+          </div>
+        </div>
+
+        <div className="spacer"></div>
+
+        <div className="products-container view-width">
+          <div className="products">
+            <a href="/">
+              <div className="product-card">
+                <div className="product-card-thumbnail"></div>
+                <h2 className="product-card-title">Nikon Z7</h2>
+                <h1 className="product-card-price">2799.90€</h1>
+              </div>
+            </a>
           </div>
         </div>
       </section>

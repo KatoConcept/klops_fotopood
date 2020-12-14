@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer class="footer">
-      <div class="footer-container">
+      <div class="footer-container view-width">
         <Link to="/">
           <img src="./img/logo2_png.png" height="30px" alt="" />
         </Link>
