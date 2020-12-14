@@ -5,7 +5,7 @@ function Header() {
     <nav className="navbar">
       <div className="navbar-container view-width">
         <Link to="/">
-          <img src="./img/logo1_png.png" height="30px" alt="" />
+          <img src="../img/logo1_png.png" height="30px" alt="" />
         </Link>
         <ul className="nav_list">
           <li className="nav_item">

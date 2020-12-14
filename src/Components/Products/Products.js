@@ -128,7 +128,7 @@ function Products() {
         <div className="products-container">
           <div className="products">
               <div className="product-card">
-                <a href="/">
+                <a href="/products/nikon_z7">
                   <div className="product-card-thumbnail" id="product-1-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Nikon Z7</h2>
