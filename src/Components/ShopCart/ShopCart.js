@@ -19,8 +19,8 @@ function ShopCart() {
             <div className="row-wrapper-2">
                 <div className="row margin-top">
                     <div className="col-6 shop-sub-title">
-                        <div className="product-thumbnail" id="product-thumbnail-1"></div>
-                        <a href="/products/nikon_z7"><h1 className="product-name">Nikon Z7</h1></a>
+                        <a href="/products/nikon_z7"><div className="product-thumbnail" id="product-thumbnail-1"></div></a>
+                        <a href="/products/nikon_z7" className="product-link"><h1 className="product-name">Nikon Z7</h1></a>
 
                     </div>
                     <div className="col shop-sub-title">
@@ -38,7 +38,7 @@ function ShopCart() {
                 <div className="row margin-top">
                     <div className="col-6 shop-sub-title">
                         <a href="/products/sigma_35mm_f_1_4"><div className="product-thumbnail" id="product-thumbnail-2"></div></a>
-                        <a href="/products/sigma_35mm_f_1_4"><h1 className="product-name">Sigma 35mm f/1.4</h1></a>
+                        <a href="/products/sigma_35mm_f_1_4" className="product-link"><h1 className="product-name">Sigma 35mm f/1.4</h1></a>
 
                     </div>
                     <div className="col shop-sub-title">
@@ -55,8 +55,8 @@ function ShopCart() {
                 </div>
                 <div className="row margin-top">
                     <div className="col-6 shop-sub-title">
-                        <div className="product-thumbnail" id="product-thumbnail-3"></div>
-                        <a href="/products/delkin_devices_64gb_premium_xqd_malukaart"><h1 className="product-name">Delkin Devices 64GB Premium XQD Mälukaart</h1></a>
+                        <a href="/products/delkin_devices_64gb_premium_xqd_malukaart"><div className="product-thumbnail" id="product-thumbnail-3"></div></a>
+                        <a href="/products/delkin_devices_64gb_premium_xqd_malukaart" className="product-link"><h1 className="product-name">Delkin Devices 64GB Premium XQD Mälukaart</h1></a>
 
                     </div>
                     <div className="col shop-sub-title">
@@ -72,6 +72,16 @@ function ShopCart() {
                     </div>
                 </div>
             </div>
+            <div className="spacer"></div>
+            <div className="purchase-wrap">
+                <div className="price-wrap">
+                    <h1 className="total-price">Kokku: 5280.40€</h1>
+                    <a href="/" className="btn purchase-btn">Vormista ost</a>
+                </div>
+            </div>
+            <div className="spacer"></div>
+            <div className="spacer"></div>
+            <div className="spacer"></div>
         </div>
     </section>
   );
