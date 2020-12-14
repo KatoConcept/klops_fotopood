@@ -30,7 +30,7 @@ function Header() {
           </li>
         </ul>
         <li className="nav_item" id="shopping-cart">
-          <Link to="#" className="nav_link">
+          <Link to="/shopping_cart" className="nav_link">
             <i className="fa fa-shopping-cart" id="shopping-icon"></i>OSTUKORV
           </Link>
         </li>

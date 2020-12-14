@@ -88,7 +88,7 @@ function Products() {
           <div className="filter-box-wrapper-bottom">
             <div className="bottom-left-filter">
                   <div className="bottom-left-filter-wrapper">
-                    <h1 className="filter-title">Tootja</h1>
+                    <h1 className="filter-title">Kaamera tootja</h1>
                     <div className="custom-control custom-radio custom-control-inline checkbox">
                       <input type="checkbox" id="filter-check-btn-12" name="filter-check-btn-12" className="custom-control-input" />
                       <label className="custom-control-label" for="filter-check-btn-12">Canon</label>

@@ -1,0 +1,93 @@
+@import 'Global.scss';
+@import 'Colors.scss';
+
+.shopping-cart-page {
+
+    .main-container {
+        max-width: 2000px;
+        margin: 0 auto;
+        padding-top: 70px;
+        min-height: 1000px;
+    }
+
+    .shop-sub-title {
+        color: $main;
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+    }
+
+    .row-wrapper {
+        // background-color: lightgreen;
+        padding-bottom: 15px;
+        border-bottom: 2px solid black;
+    }
+
+    .product-thumbnail {
+        height: 200px;
+        width: 200px;
+        min-width: 200px;
+        box-shadow: 0px 0px 15px rgb(199, 199, 199);
+        // background-color: black;
+
+        a:hover {
+            text-decoration: none !important;
+        }
+    }
+
+    .product-name {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: 10px;
+        color: $main;
+    }
+
+    .product-name:hover {
+        text-decoration: none !important;
+    }
+
+    .product-price {
+        font-size: 20px;
+        margin-top: 10px;
+        color: $main;
+    }
+
+    .minus-btn, .plus-btn {
+        height: 30px;
+        width: 50px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgb(207, 207, 207);
+        cursor: pointer;
+        font-weight: 600;
+        transition: all ease 0.3s;
+    }
+
+    .minus-btn:hover, .plus-btn:hover {
+        background-color: $main;
+        color: white;
+    }
+
+    .minus-btn:active, .plus-btn:active {
+        background-color: $main;
+    }
+
+    .quantity-number {
+        padding: 0px 20px;
+    }
+
+    #product-thumbnail-1 {
+        background: url("../img/product-1.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    #product-thumbnail-2 {
+        background: url("../img/product-2.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    #product-thumbnail-3 {
+        background: url("../img/product-4.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}

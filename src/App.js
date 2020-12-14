@@ -1,5 +1,6 @@
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
+import ShopCart from "./Components/ShopCart/ShopCart";
 import Products from "./Components/Products/Products";
 import Product1 from "./Components/Products/Product1";
 import Product2 from "./Components/Products/Product2";
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/shopping_cart">
+            <ShopCart />
           </Route>
           <Route exact path="/products">
             <Products />
