@@ -78,14 +78,23 @@
         transition: unset;
     }
 
-    .filter-box-wrapper {
+    .filter-box-wrapper-top, .filter-box-wrapper-bottom {
         display: flex;
         margin-top: 20px;
     }
 
-    .top-left-filter {
+    .top-left-filter, .bottom-left-filter, .bottom-right-filter {
         width: 50%;
-        min-height: 100px;
+        // background-color: lightgray;
+    }
+
+    .top-left-filter-wrapper, .top-right-filter-wrapper, .bottom-left-filter-wrapper, .bottom-right-filter-wrapper {
+        // background-color: lightgreen;
+        width: 70%;
+    }
+
+    .top-right-filter {
+        width: 50%;
         // background-color: lightgray;
     }
 
@@ -105,18 +114,50 @@
     }
 
     .custom-control-label::before {
-        background-color: $bg-color;
-    }
-    .custom-control-label {
-        // background-color: black;
+        background-color: $bg-color
     }
 
     input[type=checkbox]:checked + label {
         color: $main;
         font-weight: 600;  
     }
+    input[type=radio]:checked + label {
+        color: $main;
+        font-weight: 600;  
+    }
 
-    .checkbox input:checked {
-        background-color: black !important;
+    input[type=checkbox] {
+        display: none;
+    }
+    input[type=radio] {
+        display: none;
+    }
+      
+    label {
+        position: relative;
+    }
+      
+      label::before {
+        content: "";
+        background-color: $main !important;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        left: -25px;
+        top: 8px;
+      
+        transform: scale(0) rotateZ(180deg);
+        transition: all 0.4s cubic-bezier(0.54, 0.01, 0, 1.49);
+      }
+      
+      input[type=checkbox]:checked + label::before {
+        transform: scale(1) rotateZ(0deg);
+      }
+      input[type=radio]:checked + label::before {
+        transform: scale(1) rotateZ(0deg);
+      }
+      
+      label::after {
+        display: none;
       }
 }
