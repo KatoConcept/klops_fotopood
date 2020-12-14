@@ -7,6 +7,8 @@ import Product3 from "./Components/Products/Product3";
 import Product4 from "./Components/Products/Product4";
 import Product5 from "./Components/Products/Product5";
 import Product6 from "./Components/Products/Product6";
+import Product7 from "./Components/Products/Product7";
+import Product8 from "./Components/Products/Product8";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
@@ -45,6 +47,12 @@ function App() {
           </Route>
           <Route exact path="/products/nikon_ftz_lens_adapter_f_f-lens_to_z-kamera">
             <Product6 />
+          </Route>
+          <Route exact path="/products/kata_lite-433_dl_fotokott">
+            <Product7 />
+          </Route>
+          <Route exact path="/products/sony_xqd_sd_kaardilugeja">
+            <Product8 />
           </Route>
           <Route exact path="/contact">
             <Contact />

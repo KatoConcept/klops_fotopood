@@ -182,7 +182,7 @@ function Products() {
                 </a>
               </div>
               <div className="product-card">
-                <a href="/">
+                <a href="/products/kata_lite-433_dl_fotokott">
                   <div className="product-card-thumbnail" id="product-7-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Kata Lite-433 DL Fotokott</h2>
@@ -191,10 +191,10 @@ function Products() {
                 </a>
               </div>
               <div className="product-card">
-                <a href="/">
+                <a href="/products/sony_xqd_sd_kaardilugeja">
                   <div className="product-card-thumbnail" id="product-8-thumbnail"></div>
                   <div className="product-info-wrap">
-                    <h2 className="product-card-title">Sony XQD & SD Kaardilugeja</h2>
+                    <h2 className="product-card-title">Sony MRW-E90 XQD & SD Kaardilugeja</h2>
                     <h1 className="product-card-price">109.90€</h1>
                   </div>
                 </a>
