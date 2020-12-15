@@ -1,0 +1,48 @@
+@import "Global.scss";
+@import 'Colors.scss';
+
+.purchase-page {
+
+    .main-container {
+        max-width: 2000px;
+        margin: 0 auto;
+        padding-top: 70px;
+        min-height: 1000px;
+    }
+
+    .shop-sub-title {
+        color: $main;
+        font-size: 20px;
+        font-weight: 500;
+        // display: flex;
+    }
+
+    .row-wrapper {
+        // background-color: lightgreen;
+        padding-bottom: 15px;
+        border-bottom: 2px solid black;
+    }
+    .row-wrapper-2 {
+        // background-color: lightgreen;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border-bottom: 2px solid black;
+    }
+
+    .purchase-sub-title {
+        color: $main;
+        font-weight: 400;
+    }
+
+    .purchase-item-name, .purchase-item-price, .purchase-item-quantity {
+        margin-bottom: 0;
+        margin: 10px 0px;
+    }
+
+    .purchase-item-link {
+        color: $main;
+    }
+    .purchase-item-link:hover {
+        text-decoration: none;
+    }
+}

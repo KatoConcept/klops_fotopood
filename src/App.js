@@ -1,6 +1,7 @@
 import Header from "./Components/Header/Header";
 import SideDrawer from "./Components/SideDrawer/SideDrawer";
 import Home from "./Components/Home/Home";
+import MakePurchase from "./Components/MakePurchase/MakePurchase";
 import ShopCart from "./Components/ShopCart/ShopCart";
 import Products from "./Components/Products/Products";
 import Product1 from "./Components/Products/Product1";
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route exact path="/products">
             <Products />
+          </Route>
+          <Route exact path="/make_purchase">
+            <MakePurchase />
           </Route>
           <Route exact path="/products/nikon_z7">
             <Product1 />

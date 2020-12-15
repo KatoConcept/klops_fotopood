@@ -76,7 +76,7 @@ function ShopCart() {
             <div className="purchase-wrap">
                 <div className="price-wrap">
                     <h1 className="total-price">Kokku: 5280.40€</h1>
-                    <a href="/" className="btn purchase-btn">Vormista ost</a>
+                    <a href="/make_purchase" className="btn purchase-btn">Vormista ost</a>
                 </div>
             </div>
             <div className="spacer"></div>
