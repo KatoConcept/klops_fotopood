@@ -12,7 +12,7 @@ function MakePurchase() {
           <div className="row">
             <div className="col-6 shop-sub-title">Tooted</div>
             <div className="col shop-sub-title">Hind</div>
-            <div className="col shop-sub-title">Kogus</div>
+            <div className="col shop-sub-title quantity-show">Kogus</div>
             <div className="col shop-sub-title text-right">Summa</div>
           </div>
         </div>
@@ -35,9 +35,9 @@ function MakePurchase() {
               <p className="purchase-item-price">119.90€</p>
             </div>
             <div className="col purchase-sub-title">
-              <p className="purchase-item-quantity">1</p>
-              <p className="purchase-item-quantity">3</p>
-              <p className="purchase-item-quantity">2</p>
+              <p className="purchase-item-quantity quantity-show">1</p>
+              <p className="purchase-item-quantity quantity-show">3</p>
+              <p className="purchase-item-quantity quantity-show">2</p>
             </div>
             <div className="col purchase-sub-title text-right">
               <p className="purchase-item-price">2799.90€</p>
