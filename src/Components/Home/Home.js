@@ -8,16 +8,37 @@ function Home() {
         <div className="text-area">
           <h1>Kõik Sinule ja Sinu fotode jaoks vajalik ühest kohast!</h1>
           <div className="slideshow-wrapper">
-            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="false">
+            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img className="d-block w-100" src="../img/product-1.jpg" alt="First slide" />
+                  <img className="d-block w-100" src="../img/product-1.jpg" alt="1 slide" />
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block w-100" src="../img/product-1-2.jpg" alt="Second slide" />
+                  <img className="d-block w-100" src="../img/product-2.jpg" alt="2 slide" />
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block w-100" src="../img/product-1-3.jpg" alt="Third slide" />
+                  <img className="d-block w-100" src="../img/product-3.jpg" alt="3 slide" />
+                </div>
+                <div className="carousel-item">
+                  <img className="d-block w-100" src="../img/product-4.jpg" alt="4 slide" />
+                </div>
+                <div className="carousel-item">
+                  <img className="d-block w-100" src="../img/product-5.jpg" alt="5 slide" />
+                </div>
+                <div className="carousel-item">
+                  <img className="d-block w-100" src="../img/product-6.jpg" alt="6 slide" />
+                </div>
+                <div className="carousel-item">
+                  <img className="d-block w-100" src="../img/product-7.jpg" alt="7 slide" />
+                </div>
+                <div className="carousel-item">
+                  <img className="d-block w-100" src="../img/product-8.jpg" alt="8 slide" />
+                </div>
+                <div className="carousel-item">
+                  <img className="d-block w-100" src="../img/product-9.jpg" alt="9 slide" />
+                </div>
+                <div className="carousel-item">
+                  <img className="d-block w-100" src="../img/product-10.jpg" alt="10 slide" />
                 </div>
               </div>
               <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

@@ -33,3 +33,9 @@ body {
 .margin-top {
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 750px) {
+    .view-width {
+        width: 95%;
+    }
+}
