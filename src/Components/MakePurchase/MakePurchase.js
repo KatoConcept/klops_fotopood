@@ -78,8 +78,8 @@ function MakePurchase() {
             <div class="form-group col-md-6">
               <label for="inputHouse"><h1 className="form-title">Tänav, maja <span className="color-red">*</span></h1></label>
               <input type="name" class="form-control form-multiple" id="inputHouse" placeholder="" required="true" />
-              <input type="name" class="form-control form-multiple" id="inputHouse2" placeholder="" required="true" />
-              <input type="name" class="form-control" id="inputHouse3" placeholder="" required="true" />
+              <input type="name" class="form-control form-multiple" id="inputHouse2" placeholder="" />
+              <input type="name" class="form-control" id="inputHouse3" placeholder="" />
             </div>
             <div class="form-group col-md-6">
               <label for="inputCity"><h1 className="form-title">Linn <span className="color-red">*</span></h1></label>
