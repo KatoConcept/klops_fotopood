@@ -57,8 +57,8 @@ function MakePurchase() {
               <input type="email" class="form-control" id="inputEmail" placeholder="teetmargna@gmail.com" required="true" />
             </div>
             <div class="form-group col-md-6">
-              <h1 class="form-title">Arve saaja</h1>
-              <div class="custom-control custom-radio custom-control-inline">
+              <h1 class="form-title custom-form-title">Arve saaja</h1>
+              <div class="custom-control custom-radio custom-control-inline custom-radio-margin">
                 <input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input" checked="checked" />
                 <label class="custom-control-label" for="customRadioInline1">Eraisik</label>
               </div>
@@ -105,11 +105,18 @@ function MakePurchase() {
               </select>
             </div>
             <div class="form-group col-md-6">
-              <label for="inputLastName"><h1 className="form-title">Telefoninumber <span className="color-red">*</span></h1></label>
-              <input type="name" class="form-control" id="inputLastName" placeholder="" required="true" />
+              <label for="inputPhoneNumber"><h1 className="form-title">Telefoninumber <span className="color-red">*</span></h1></label>
+              <input type="name" class="form-control" id="inputPhoneNumber" placeholder="" required="true" />
+              <h1 class="form-title custom-form-title-3">Makseviis</h1>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio4" name="customRadio2" class="custom-control-input" checked="checked" />
+                <label class="custom-control-label delivery-label d-flex justify-content-between" for="customRadio4">
+                  <h1 className="payment-method">Arve alusel</h1>
+                </label>
+              </div>
             </div>
             <div class="form-group col-md-6">
-              <h1 class="form-title">Tarneviis</h1>
+              <h1 class="form-title custom-form-title-2">Tarneviis</h1>
               <div class="custom-control custom-radio">
                 <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked="checked" />
                 <label class="custom-control-label delivery-label d-flex justify-content-between" for="customRadio1">
@@ -137,15 +144,19 @@ function MakePurchase() {
             </div>
           </div>
 
-          <div class="form-group">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" required="true" />
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
+          <div className="place-order-wrap">
+            <div class="form-group float-right">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck" required="true" />
+                <label class="form-check-label" for="gridCheck">
+                  <h1 className="agree-terms">Nõustun Klõps OÜ e-poe kasutustingimustega</h1>
+                </label>
+              </div>
+              <button type="submit" class="btn float-right">Esita tellimus</button>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          <div className="spacer"></div>
+          <div className="spacer"></div>
         </form>
       </div>
     </section>
