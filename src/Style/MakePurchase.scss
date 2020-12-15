@@ -80,7 +80,7 @@
     }
 
     .form-multiple {
-        margin-bottom: 8.5px;
+        margin-bottom: 10.5px;
     }
 
     .delivery-label {
@@ -160,5 +160,21 @@
         margin-top: 10px;
         box-shadow: 0px 5px 10px $main-shadow;
         transition: ease-in-out 0.3s;
+    }
+
+    @media only screen and (max-width: 720px) {
+        .page-title {
+            font-size: 40px;
+        }
+
+    }
+
+    @media only screen and (max-width: 440px) {
+        .page-title {
+            font-size: 30px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+
     }
 }
