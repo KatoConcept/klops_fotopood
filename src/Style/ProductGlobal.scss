@@ -125,4 +125,31 @@
     .info-except {
         font-weight: 500 !important;
     }
+
+    .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+//   outline: black;
+//   background-size: 100%, 100%;
+//   border-radius: 50%;
+//   border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    font-family:monospace;
+  content: '>';
+  font-size: 55px;
+  color: white;
+  text-shadow: 0px 0px 20px #000000;
+}
+
+.carousel-control-prev-icon:after {
+    font-family:monospace;
+  content: '<';
+  font-size: 55px;
+  color: white;
+  text-shadow: 0px 0px 20px #000000;
+}
 }
