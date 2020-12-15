@@ -218,10 +218,12 @@
     .card {
         background-color: $bg-color;
         border: none;
+        margin-top: 30px;
     }
     .card-header {
         border-bottom: 1px solid black;
         background-color: $bg-color;
+        padding-left: 0;
     }
     .accordion-title {
         color: $main;
@@ -231,11 +233,11 @@
     .accordion-link:hover {
         text-decoration: none;
     }
-    .rotate-icon {
-        float: right;
-    }
-    .collapse, .accordion, .collapse.show {
-        background-color: none !important;
+    .card-body {
+
+        .custom-control-label  {
+            margin: 20px 30px 0px 0px;
+        }
     }
 
 
@@ -328,6 +330,7 @@
         }
         .search-container {
             width: 100%;
+            height: 50px;
         }
         #search-form::placeholder {
             font-size: 15px;
@@ -352,6 +355,11 @@
         .accordion-wrapper {
             display: unset;
         }
+
+        #search-form {
+            width: unset !important;
+        }
+
     }
       @media only screen and (max-width: 720px) {
         .page-title {

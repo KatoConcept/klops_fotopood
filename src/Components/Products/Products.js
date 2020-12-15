@@ -51,36 +51,36 @@ function Products() {
                 data-parent="#accordionEx1">
                 <div class="card-body">
                   <div className="custom-control custom-radio checkbox">
-                    <input type="checkbox" id="filter-check-btn-1" name="filter-check-btn-1" className="custom-control-input" />
-                    <label className="custom-control-label" for="filter-check-btn-1">Objektiivid</label>
+                    <input type="checkbox" id="filter-check-btn-100" name="filter-check-btn-100" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-100">Objektiivid</label>
                   </div>
                   <div className="custom-control custom-radio checkbox">
-                    <input type="checkbox" id="filter-check-btn-2" name="filter-check-btn-2" className="custom-control-input" />
-                    <label className="custom-control-label" for="filter-check-btn-2">Kaamerad</label>
+                    <input type="checkbox" id="filter-check-btn-200" name="filter-check-btn-200" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-200">Kaamerad</label>
                   </div>
                   <div className="custom-control custom-radio checkbox">
-                    <input type="checkbox" id="filter-check-btn-3" name="filter-check-btn-3" className="custom-control-input" />
-                    <label className="custom-control-label" for="filter-check-btn-3">Fotokotid</label>
+                    <input type="checkbox" id="filter-check-btn-300" name="filter-check-btn-300" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-300">Fotokotid</label>
                   </div>
                   <div className="custom-control custom-radio checkbox">
-                    <input type="checkbox" id="filter-check-btn-4" name="filter-check-btn-4" className="custom-control-input" />
-                    <label className="custom-control-label" for="filter-check-btn-4">Mälukaardid</label>
+                    <input type="checkbox" id="filter-check-btn-400" name="filter-check-btn-400" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-400">Mälukaardid</label>
                   </div>
                   <div className="custom-control custom-radio checkbox">
-                    <input type="checkbox" id="filter-check-btn-5" name="filter-check-btn-5" className="custom-control-input" />
-                    <label className="custom-control-label" for="filter-check-btn-5">Välklambid</label>
+                    <input type="checkbox" id="filter-check-btn-500" name="filter-check-btn-500" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-500">Välklambid</label>
                   </div>
                   <div className="custom-control custom-radio checkbox">
-                    <input type="checkbox" id="filter-check-btn-6" name="filter-check-btn-6" className="custom-control-input" />
-                    <label className="custom-control-label" for="filter-check-btn-6">Akud</label>
+                    <input type="checkbox" id="filter-check-btn-600" name="filter-check-btn-600" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-600">Akud</label>
                   </div>
                   <div className="custom-control custom-radio checkbox">
-                    <input type="checkbox" id="filter-check-btn-7" name="filter-check-btn-7" className="custom-control-input" />
-                    <label className="custom-control-label" for="filter-check-btn-7">Akulaadijad</label>
+                    <input type="checkbox" id="filter-check-btn-700" name="filter-check-btn-700" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-700">Akulaadijad</label>
                   </div>
                   <div className="custom-control custom-radio checkbox">
-                    <input type="checkbox" id="filter-check-btn-8" name="filter-check-btn-8" className="custom-control-input" />
-                    <label className="custom-control-label" for="filter-check-btn-8">Muud tarvikud</label>
+                    <input type="checkbox" id="filter-check-btn-800" name="filter-check-btn-800" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-800">Muud tarvikud</label>
                   </div>
                 </div>
               </div>
@@ -103,22 +103,19 @@ function Products() {
               <div id="collapseTwo21" class="collapse" role="tabpanel" aria-labelledby="headingTwo21"
                 data-parent="#accordionEx1">
                 <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                  wolf
-                  moon
-                  officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                  Brunch
-                  3
-                  wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                  shoreditch
-                  et.
-                  Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                  Ad
-                  vegan
-                  excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
-                  nesciunt
-                  you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
+                  <div className="custom-control custom-radio custom-control-inline checkbox">
+                    <input type="checkbox" id="filter-check-btn-900" name="filter-check-btn-900" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-900">Peegelkaamerad</label>
+                  </div>
+                  <div className="custom-control custom-radio custom-control-inline checkbox">
+                    <input type="checkbox" id="filter-check-btn-1000" name="filter-check-btn-1000" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-1000">Hübriidkaamerad</label>
+                  </div>
+                  <div className="custom-control custom-radio custom-control-inline checkbox">
+                    <input type="checkbox" id="filter-check-btn-1100" name="filter-check-btn-1100" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-1100">Kompaktkaamerad</label>
+                  </div>
+                </div>
               </div>
 
             </div>
@@ -137,22 +134,49 @@ function Products() {
               <div id="collapseThree31" class="collapse" role="tabpanel" aria-labelledby="headingThree31"
                 data-parent="#accordionEx1">
                 <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                  wolf
-                  moon
-                  officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                  Brunch
-                  3
-                  wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                  shoreditch
-                  et.
-                  Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                  Ad
-                  vegan
-                  excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
-                  nesciunt
-                  you probably haven't heard of them accusamus labore sustainable VHS.
+                  <div className="custom-control custom-radio custom-control-inline checkbox">
+                    <input type="checkbox" id="filter-check-btn-1200" name="filter-check-btn-1200" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-1200">Canon</label>
+                  </div>
+                  <div className="custom-control custom-radio custom-control-inline checkbox">
+                    <input type="checkbox" id="filter-check-btn-1300" name="filter-check-btn-1300" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-1300">Nikon</label>
+                  </div>
+                  <div className="custom-control custom-radio custom-control-inline checkbox">
+                    <input type="checkbox" id="filter-check-btn-1400" name="filter-check-btn-1400" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-1400">Panasonic</label>
+                  </div>
+                  <div className="custom-control custom-radio custom-control-inline checkbox">
+                    <input type="checkbox" id="filter-check-btn-1500" name="filter-check-btn-1500" className="custom-control-input" />
+                    <label className="custom-control-label" for="filter-check-btn-1500">Pentax</label>
+                  </div>
+                </div>
               </div>
+
+            </div>
+            <div class="card">
+
+              <div class="card-header" role="tab" id="headingFrour41">
+                <a class="collapsed accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseFour41"
+                  aria-expanded="false" aria-controls="collapseFour41">
+                  <h5 class="mb-0 accordion-title">
+                    Järjesta <i class="fa fa-angle-down rotate-icon"></i>
+                  </h5>
+                </a>
+              </div>
+
+              <div id="collapseFour41" class="collapse" role="tabpanel" aria-labelledby="headingFour41"
+                data-parent="#accordionEx1">
+                <div class="card-body">
+                <div className="custom-control custom-radio custom-control-inline checkbox">
+                <input type="radio" id="filter-check-btn-1600" name="filter-check-btn-1600" className="custom-control-input" />
+                <label className="custom-control-label" for="filter-check-btn-1600">Hinna järgi kasvavalt</label>
+              </div>
+              <div className="custom-control custom-radio custom-control-inline checkbox">
+                <input type="radio" id="filter-check-btn-1700" name="filter-check-btn-1600" className="custom-control-input" />
+                <label className="custom-control-label" for="filter-check-btn-1700">Hinna järgi kahanevalt</label>
+              </div>
+                </div>
               </div>
 
             </div>
