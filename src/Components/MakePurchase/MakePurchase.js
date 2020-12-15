@@ -1,49 +1,113 @@
 // import { Link } from "react-router-dom";
 
 function MakePurchase() {
-    document.title = "Klõps | Ostu vormistamine";
-    return (
-      <section className="purchase-page">
-        <div className="main-container view-width">
+  document.title = "Klõps | Ostu vormistamine";
+  return (
+    <section className="purchase-page">
+      <div className="main-container view-width">
         <div className="spacer"></div>
-            <h1 className="page-title">Ostu vormistamine</h1>
-            <div className="spacer"></div>
-            <div className="row-wrapper">
-                <div className="row">
-                    <div className="col-6 shop-sub-title">Tooted</div>
-                    <div className="col shop-sub-title">Hind</div>
-                    <div className="col shop-sub-title">Kogus</div>
-                    <div className="col shop-sub-title text-right">Summa</div>
-                </div>
+        <h1 className="page-title">Ostu vormistamine</h1>
+        <div className="spacer"></div>
+        <div className="row-wrapper">
+          <div className="row">
+            <div className="col-6 shop-sub-title">Tooted</div>
+            <div className="col shop-sub-title">Hind</div>
+            <div className="col shop-sub-title">Kogus</div>
+            <div className="col shop-sub-title text-right">Summa</div>
+          </div>
+        </div>
+        <div className="row-wrapper-2">
+          <div className="row">
+            <div className="col-6 purchase-sub-title">
+              <a href="/products/nikon_z7" className="purchase-item-link">
+                <p className="purchase-item-name">Nikon Z7</p>
+              </a>
+              <a href="/products/sigma_35mm_f_1_4" className="purchase-item-link">
+                <p className="purchase-item-name">Sigma 35mm f/1.4</p>
+              </a>
+              <a href="/products/delkin_devices_64gb_premium_xqd_malukaart" className="purchase-item-link">
+                <p className="purchase-item-name">Delkin Devices 64GB Premium XQD Mälukaart</p>
+              </a>
             </div>
-            <div className="row-wrapper-2">
-              <div className="row">
-                  <div className="col-6 purchase-sub-title">
-                    <a href="/" className="purchase-item-link"><p className="purchase-item-name">Nikon Z7</p></a>
-                    <p className="purchase-item-name">Sigma 35mm f/1.4</p>
-                    <p className="purchase-item-name">Delkin Devices 64GB Premium XQD Mälukaart</p>
-                  </div>
-                  <div className="col purchase-sub-title">
-                    <p className="purchase-item-price">2799.90€</p>
-                    <p className="purchase-item-price">749.90€</p>
-                    <p className="purchase-item-price">119.90€</p>
-                  </div>
-                  <div className="col purchase-sub-title">
-                    <p className="purchase-item-quantity">1</p>
-                    <p className="purchase-item-quantity">3</p>
-                    <p className="purchase-item-quantity">2</p>
-                  </div>
-                  <div className="col purchase-sub-title text-right">
-                    <p className="purchase-item-price">2799.90€</p>
-                    <p className="purchase-item-price">2249.90€</p>
-                    <p className="purchase-item-price">239.80€</p>
-                  </div>
+            <div className="col purchase-sub-title">
+              <p className="purchase-item-price">2799.90€</p>
+              <p className="purchase-item-price">749.90€</p>
+              <p className="purchase-item-price">119.90€</p>
+            </div>
+            <div className="col purchase-sub-title">
+              <p className="purchase-item-quantity">1</p>
+              <p className="purchase-item-quantity">3</p>
+              <p className="purchase-item-quantity">2</p>
+            </div>
+            <div className="col purchase-sub-title text-right">
+              <p className="purchase-item-price">2799.90€</p>
+              <p className="purchase-item-price">2249.90€</p>
+              <p className="purchase-item-price">239.80€</p>
+            </div>
+          </div>
+        </div>
+        <div className="total-price-wrap">
+          <h1 className="total-price text-right">Kokku: 5280.40€</h1>
+        </div>
+        <div className="spacer"></div>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail"><h1 className="form-title">E-posti aadress</h1></label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="teetmargna@gmail.com" required="true" />
+            </div>
+            <div class="form-group col-md-6">
+              <h1 class="form-title">Arve saaja</h1>
+              <div class="custom-control custom-radio custom-control-inline">
+
+                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" />
+                <label class="custom-control-label" for="customRadioInline1">Eraisik</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" />
+                <label class="custom-control-label" for="customRadioInline2">Ettevõte</label>
               </div>
             </div>
-        </div>
-      </section>
-    );
-  }
-  
-  export default MakePurchase;
-  
+            <div class="form-group col-md-6">
+              <label for="inputFirstname"><h1 className="form-title">Eesnimi</h1></label>
+              <input type="name" class="form-control" id="inputFirstName" placeholder="" required="true" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputLastName"><h1 className="form-title">Perekonnanimi</h1></label>
+              <input type="name" class="form-control" id="inputLastName" placeholder="" required="true" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputHouse"><h1 className="form-title">Tänav, maja</h1></label>
+              <input type="name" class="form-control form-multiple" id="inputHouse" placeholder="" required="true" />
+              <input type="name" class="form-control form-multiple" id="inputHouse2" placeholder="" required="true" />
+              <input type="name" class="form-control form-multiple" id="inputHouse3" placeholder="" required="true" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputLastName"><h1 className="form-title">Linn</h1></label>
+              <input type="name" class="form-control" id="inputLastName" placeholder="" required="true" />
+              <label for="inputLastName"><h1 className="form-title">Maakond</h1></label>
+              <select class="form-control">
+                <option value="" disabled selected>Vali maakond</option>
+                <option>Mango</option>
+                <option>Mingo</option>
+                <option>Bongo</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" required="true" />
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+      </div>
+    </section>
+  );
+}
+
+export default MakePurchase;

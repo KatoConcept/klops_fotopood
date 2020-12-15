@@ -41,7 +41,7 @@
     }
 
     .product-name {
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 30px;
         margin-top: 10px;
         color: $main;
@@ -52,14 +52,14 @@
     }
 
     .product-price {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 10px;
         color: $main;
     }
 
     .minus-btn, .plus-btn {
-        height: 30px;
-        width: 50px;
+        height: 28px;
+        width: 48px;
         background-color: white;
         box-shadow: 0px 0px 10px rgb(207, 207, 207);
         cursor: pointer;
@@ -78,6 +78,7 @@
 
     .quantity-number {
         padding: 0px 20px;
+        font-size: 18px;
     }
 
     #product-thumbnail-1 {

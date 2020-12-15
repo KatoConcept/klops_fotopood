@@ -45,4 +45,41 @@
     .purchase-item-link:hover {
         text-decoration: none;
     }
+
+    .total-price-wrap {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .total-price {
+        font-size: 28px;
+        color: $main;
+        font-weight: 500;
+    }
+
+    .form-wrap {
+        width: 100%;
+        display: flex;
+    }
+
+    .left-form-wrap, .right-form-wrap {
+        width: 50%;
+        min-height: 1000px;
+    }
+    .right-form-wrap {
+        // background-color: lightgray;
+    }
+    .left-form-wrap {
+        // background-color: rgb(236, 236, 236);
+    }
+
+    .form-title {
+        font-size: 20px !important;
+        color: $main !important;
+        margin-top: 15px;
+    }
+
+    .form-multiple {
+        margin-bottom: 8.5px;
+    }
 }
