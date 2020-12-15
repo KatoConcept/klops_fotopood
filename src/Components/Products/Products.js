@@ -26,7 +26,6 @@ function Products() {
 
 
 
-        <div className="spacer"></div>
         <div className="accordion-wrapper">
 
 

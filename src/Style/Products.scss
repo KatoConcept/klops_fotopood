@@ -218,7 +218,7 @@
     .card {
         background-color: $bg-color;
         border: none;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .card-header {
         border-bottom: 1px solid black;
@@ -229,6 +229,7 @@
         color: $main;
         font-size: 24px;
         font-weight: 600;
+        padding-bottom: 2px;
     }
     .accordion-link:hover {
         text-decoration: none;
