@@ -1,5 +1,5 @@
 // import { Link } from "react-router-dom";
-import React, { Component } from 'react';
+import React from 'react';
 
 function Header() {
 
@@ -8,7 +8,7 @@ function Header() {
   // burger.addEventListener('click', () => {
   //   sideDrawer.classList.toggle('open');
   // });
-  const sideDrawer = document.querySelector(".sideDrawer");
+  // const sideDrawer = document.querySelector(".sideDrawer");
   function clickHandler() {
     document.querySelector(".sideDrawer").classList.toggle('open');
     document.querySelector(".line1").classList.toggle('open');
