@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Home() {
   document.title = "Klõps | Avaleht";
@@ -7,7 +7,7 @@ function Home() {
       <div className="main-container view-width">
         <div className="text-area">
           <h1>Kõik Sinule ja Sinu fotode jaoks vajalik ühest kohast!</h1>
-          <Link to="/products" className="btn">Vaata tooteid</Link>
+          <a href="/products" className="btn">Vaata tooteid</a>
         </div>
       </div>
     </section>

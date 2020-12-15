@@ -50,4 +50,53 @@
         text-decoration: none;
         color: $main-hover !important;
     }
+
+    .burger {
+        position: absolute;
+        z-index: 201;
+    }
+
+    @media only screen and (max-width: 960px) {
+
+
+        .nav_item {
+            display: none;
+        }
+        
+        .burger {
+            cursor: pointer;
+            right: 5%;
+            top: 50%;
+            transform: translate(0%, -50%);
+            z-index: 201;
+    
+            div {
+                width: 25px;
+                height: 2px;
+                background-color: $main;
+                margin: 4px;
+                transition: all 0.3s ease;
+            }
+        }
+
+        .nav-links.open {
+            clip-path: circle(1300px at 90% -10%);
+            pointer-events: all;
+        }
+        
+        body.open {
+            overflow: hidden;
+        }
+        
+        .line1.open {
+            transform: rotate(-45deg) translate(-2.6px,6px);
+        }
+        .line2.open {
+            opacity: 0;
+        }
+        .line3.open {
+            transform: rotate(45deg) translate(-2.6px,-6px);
+        }
+        
+    }
 }

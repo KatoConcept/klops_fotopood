@@ -1,4 +1,5 @@
 import Header from "./Components/Header/Header";
+import SideDrawer from "./Components/SideDrawer/SideDrawer";
 import Home from "./Components/Home/Home";
 import ShopCart from "./Components/ShopCart/ShopCart";
 import Products from "./Components/Products/Products";
@@ -23,6 +24,7 @@ function App() {
     <div className="App">
       <Router>
       <Header></Header>
+      <SideDrawer />
         <Switch>
           <Route path="/about">
             <About />
