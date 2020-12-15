@@ -8,6 +8,14 @@
     display: none;
 }
 
+body {
+    overflow: unset;
+}
+
+body.open {
+    overflow: hidden;
+}
+
 .sideDrawer.open {
     display: unset;
 }
