@@ -20,12 +20,13 @@ function Header() {
   return (
 
     <nav className="navbar">
-      <div className="navbar-container view-width">
-      <div className="burger" onClick={clickHandler}>
+            <div className="burger" onClick={clickHandler}>
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
         </div>
+      <div className="navbar-container view-width">
+
         <a href="/">
           <img src="../img/logo1_png.png" height="30px" alt="" />
         </a>

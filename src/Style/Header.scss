@@ -8,6 +8,7 @@
     position: fixed;
     box-shadow: 0px -20px 40px #808080;
     z-index: 100;
+    padding: 0;
 
     .navbar-container {
         // width: 90%;
@@ -77,11 +78,6 @@
                 margin: 4px;
                 transition: all 0.3s ease;
             }
-        }
-
-        .nav-links.open {
-            clip-path: circle(1300px at 90% -10%);
-            pointer-events: all;
         }
         
         body.open {
