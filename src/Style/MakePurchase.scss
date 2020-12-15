@@ -40,6 +40,13 @@
         margin: 10px 0px;
     }
 
+    .purchase-item-name {
+        span {
+            font-weight: 600;
+            display: none;
+        }
+    }
+
     .purchase-item-link {
         color: $main;
     }
@@ -168,6 +175,11 @@
         .quantity-show {
             display: none;
         }
+        .purchase-item-name {
+            span {
+                display: unset;
+            }
+        }
     }
 
     @media only screen and (max-width: 493px) {
@@ -178,7 +190,7 @@
 
     @media only screen and (max-width: 440px) {
         .page-title {
-            font-size: 30px;
+            font-size: 35px;
         }
     }
 

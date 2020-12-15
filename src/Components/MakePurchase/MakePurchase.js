@@ -20,13 +20,13 @@ function MakePurchase() {
           <div className="row">
             <div className="col-6 purchase-sub-title">
               <a href="/products/nikon_z7" className="purchase-item-link">
-                <p className="purchase-item-name">Nikon Z7</p>
+                <p className="purchase-item-name"><span>1x</span> Nikon Z7</p>
               </a>
               <a href="/products/sigma_35mm_f_1_4" className="purchase-item-link">
-                <p className="purchase-item-name">Sigma 35mm f/1.4</p>
+                <p className="purchase-item-name"><span>3x</span> Sigma 35mm f/1.4</p>
               </a>
               <a href="/products/delkin_devices_64gb_premium_xqd_malukaart" className="purchase-item-link">
-                <p className="purchase-item-name">Delkin Devices 64GB Premium XQD Mälukaart</p>
+                <p className="purchase-item-name"><span>2x</span> Delkin Devices 64GB Premium XQD Mälukaart</p>
               </a>
             </div>
             <div className="col purchase-sub-title">
