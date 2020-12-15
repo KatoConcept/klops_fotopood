@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Products() {
   document.title = "Klõps | Tooted";
@@ -128,94 +128,94 @@ function Products() {
         <div className="products-container">
           <div className="products">
               <div className="product-card">
-                <a href="/products/nikon_z7">
+                <Link to="/products/nikon_z7">
                   <div className="product-card-thumbnail" id="product-1-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Nikon Z7</h2>
                     <h1 className="product-card-price">2799.90€</h1>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="product-card">
-              <a href="/products/sigma_35mm_f_1_4">
+              <Link to="/products/sigma_35mm_f_1_4">
                 <div className="product-card-thumbnail" id="product-2-thumbnail"></div>
                 <div className="product-info-wrap">
                   <h2 className="product-card-title">Sigma 35mm f/1.4</h2>
                   <h1 className="product-card-price">749.90€</h1>
                 </div>
-              </a>
+              </Link>
               </div>
               <div className="product-card">
-                <a href="/products/en-el15_lithium-ion_battery_pack_7_0V_1900mah">
+                <Link to="/products/en-el15_lithium-ion_battery_pack_7_0V_1900mah">
                   <div className="product-card-thumbnail" id="product-3-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">EN-EL15 Lithium-Ion Battery Pack (7.0V, 1900mAh)</h2>
                     <h1 className="product-card-price">29.90€</h1>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="product-card">
-                <a href="/products/delkin_devices_64gb_premium_xqd_malukaart">
+                <Link to="/products/delkin_devices_64gb_premium_xqd_malukaart">
                   <div className="product-card-thumbnail" id="product-4-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Delkin Devices 64GB Premium XQD Mälukaart</h2>
                     <h1 className="product-card-price">119.90€</h1>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="product-card">
-                <a href="/products/nikon_nikkor_z_50mm_f_1_8_s">
+                <Link to="/products/nikon_nikkor_z_50mm_f_1_8_s">
                   <div className="product-card-thumbnail" id="product-5-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Nikon Nikkor Z 50mm f/1.8 S</h2>
                     <h1 className="product-card-price">499.90€</h1>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="product-card">
-                <a href="/products/nikon_ftz_lens_adapter_f_f-lens_to_z-kamera">
+                <Link to="/products/nikon_ftz_lens_adapter_f_f-lens_to_z-kamera">
                   <div className="product-card-thumbnail" id="product-6-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Nikon FTZ Lens Adapter f. F-Lens to Z-Kamera</h2>
                     <h1 className="product-card-price">429.90€</h1>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="product-card">
-                <a href="/products/kata_lite-433_dl_fotokott">
+                <Link to="/products/kata_lite-433_dl_fotokott">
                   <div className="product-card-thumbnail" id="product-7-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Kata Lite-433 DL Fotokott</h2>
                     <h1 className="product-card-price">39.90€</h1>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="product-card">
-                <a href="/products/sony_xqd_sd_kaardilugeja">
+                <Link to="/products/sony_xqd_sd_kaardilugeja">
                   <div className="product-card-thumbnail" id="product-8-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Sony MRW-E90 XQD & SD Kaardilugeja</h2>
                     <h1 className="product-card-price">109.90€</h1>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="product-card">
-                <a href="/products/nikon_akulaadija_mh-25a_en-el15a">
+                <Link to="/products/nikon_akulaadija_mh-25a_en-el15a">
                   <div className="product-card-thumbnail" id="product-9-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Nikon akulaadija MH-25a EN-EL15a</h2>
                     <h1 className="product-card-price">74.90€</h1>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="product-card">
-                <a href="/products/nikon_valklamp_sb-700">
+                <Link to="/products/nikon_valklamp_sb-700">
                   <div className="product-card-thumbnail" id="product-10-thumbnail"></div>
                   <div className="product-info-wrap">
                     <h2 className="product-card-title">Nikon välklamp SB-700</h2>
                     <h1 className="product-card-price">329.90€</h1>
                   </div>
-                </a>
+                </Link>
               </div>
           </div>
         </div>

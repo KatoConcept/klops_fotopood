@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function MakePurchase() {
   document.title = "Klõps | Ostu vormistamine";
@@ -19,15 +19,15 @@ function MakePurchase() {
         <div className="row-wrapper-2">
           <div className="row">
             <div className="col-6 purchase-sub-title">
-              <a href="/products/nikon_z7" className="purchase-item-link">
+              <Link to="/products/nikon_z7" className="purchase-item-link">
                 <p className="purchase-item-name"><span>1x</span> Nikon Z7</p>
-              </a>
-              <a href="/products/sigma_35mm_f_1_4" className="purchase-item-link">
+              </Link>
+              <Link to="/products/sigma_35mm_f_1_4" className="purchase-item-link">
                 <p className="purchase-item-name"><span>3x</span> Sigma 35mm f/1.4</p>
-              </a>
-              <a href="/products/delkin_devices_64gb_premium_xqd_malukaart" className="purchase-item-link">
+              </Link>
+              <Link to="/products/delkin_devices_64gb_premium_xqd_malukaart" className="purchase-item-link">
                 <p className="purchase-item-name"><span>2x</span> Delkin Devices 64GB Premium XQD Mälukaart</p>
-              </a>
+              </Link>
             </div>
             <div className="col purchase-sub-title">
               <p className="purchase-item-price">2799.90€</p>

@@ -1,4 +1,6 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import React from 'react';
+import clickHandler from '../NavbarAnimation/NavbarAnimation'
 
 function SideDrawer() {
     return (
@@ -7,32 +9,31 @@ function SideDrawer() {
                 <div className="navbar-container">
                     <ul className="nav_list">
                         <li className="nav_item">
-                            <a href="/" className="nav_link">
+                            <Link to="/" className="nav_link" onClick={clickHandler}>
                                 AVALEHT
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav_item">
-                            <a href="/products" className="nav_link">
+                            <Link to="/products" className="nav_link" onClick={clickHandler}>
                                 TOOTED
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav_item">
-                            <a href="/about" className="nav_link">
+                            <Link to="/Linkbout" className="nav_link" onClick={clickHandler}>
                                 MEIST
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav_item">
-                            <a href="/contact" className="nav_link">
+                            <Link to="/contact" className="nav_link" onClick={clickHandler}>
                                 KONTAKT
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                     <li className="nav_item" id="shopping-cart">
-                        <a href="/shopping_cart" className="nav_link">
+                        <Link to="/shopping_cart" className="nav_link" onClick={clickHandler}>
                         OSTUKORV
                             <i className="fa fa-shopping-cart" id="shopping-icon"></i>
-                            
-                        </a>
+                        </Link>
                     </li>
                 </div>
             </div>
