@@ -1,13 +1,13 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-padding"></div>
       <div className="footer-container view-width">
-        <a href="/">
+        <Link to="/">
           <img src="../img/logo2_png.png" height="30px" alt="" />
-        </a>
+        </Link>
         <p className="footer-text">
           Klõps OÜ | Pärnu mnt 57a, 10135 Tallinn | info@klops.ee
         </p>

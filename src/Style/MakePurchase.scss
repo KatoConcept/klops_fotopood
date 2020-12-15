@@ -163,14 +163,6 @@
         transition: ease-in-out 0.3s;
     }
 
-    @media only screen and (max-width: 720px) {
-        .page-title {
-            font-size: 40px;
-        }
-
-    }
-
-
     @media only screen and (max-width: 620px) {
         .quantity-show {
             display: none;
@@ -185,12 +177,6 @@
     @media only screen and (max-width: 493px) {
         .purchase-item-name, .purchase-item-price, .purchase-item-quantity {
             font-size: 10px;
-        }
-    }
-
-    @media only screen and (max-width: 440px) {
-        .page-title {
-            font-size: 35px;
         }
     }
 
