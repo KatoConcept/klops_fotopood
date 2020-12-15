@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Home() {
   document.title = "Klõps | Avaleht";
@@ -51,9 +51,10 @@ function Home() {
               </a>
             </div>
           </div>
-          <a href="/products" className="btn check-products">Vaata tooteid</a>
+          <Link to="/products" className="btn check-products">Vaata tooteid</Link>
         </div>
       </div>
+      <div className="spacer"></div>
     </section>
   );
 }
