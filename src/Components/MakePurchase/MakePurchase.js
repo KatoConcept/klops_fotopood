@@ -53,44 +53,86 @@ function MakePurchase() {
         <form>
           <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="inputEmail"><h1 className="form-title">E-posti aadress</h1></label>
+              <label for="inputEmail"><h1 className="form-title">E-posti aadress <span className="color-red">*</span></h1></label>
               <input type="email" class="form-control" id="inputEmail" placeholder="teetmargna@gmail.com" required="true" />
             </div>
             <div class="form-group col-md-6">
               <h1 class="form-title">Arve saaja</h1>
               <div class="custom-control custom-radio custom-control-inline">
-
-                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" />
+                <input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input" checked="checked" />
                 <label class="custom-control-label" for="customRadioInline1">Eraisik</label>
               </div>
               <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" />
+                <input type="radio" id="customRadioInline2" name="customRadioInline" class="custom-control-input" checked="checked" />
                 <label class="custom-control-label" for="customRadioInline2">Ettevõte</label>
               </div>
             </div>
             <div class="form-group col-md-6">
-              <label for="inputFirstname"><h1 className="form-title">Eesnimi</h1></label>
+              <label for="inputFirstname"><h1 className="form-title">Eesnimi <span className="color-red">*</span></h1></label>
               <input type="name" class="form-control" id="inputFirstName" placeholder="" required="true" />
             </div>
             <div class="form-group col-md-6">
-              <label for="inputLastName"><h1 className="form-title">Perekonnanimi</h1></label>
+              <label for="inputLastName"><h1 className="form-title">Perekonnanimi <span className="color-red">*</span></h1></label>
               <input type="name" class="form-control" id="inputLastName" placeholder="" required="true" />
             </div>
             <div class="form-group col-md-6">
-              <label for="inputHouse"><h1 className="form-title">Tänav, maja</h1></label>
+              <label for="inputHouse"><h1 className="form-title">Tänav, maja <span className="color-red">*</span></h1></label>
               <input type="name" class="form-control form-multiple" id="inputHouse" placeholder="" required="true" />
               <input type="name" class="form-control form-multiple" id="inputHouse2" placeholder="" required="true" />
-              <input type="name" class="form-control form-multiple" id="inputHouse3" placeholder="" required="true" />
+              <input type="name" class="form-control" id="inputHouse3" placeholder="" required="true" />
             </div>
             <div class="form-group col-md-6">
-              <label for="inputLastName"><h1 className="form-title">Linn</h1></label>
-              <input type="name" class="form-control" id="inputLastName" placeholder="" required="true" />
-              <label for="inputLastName"><h1 className="form-title">Maakond</h1></label>
+              <label for="inputCity"><h1 className="form-title">Linn <span className="color-red">*</span></h1></label>
+              <input type="name" class="form-control" id="inputCity" placeholder="" required="true" />
+              <label for="inputCounty"><h1 className="form-title">Maakond <span className="color-red">*</span></h1></label>
               <select class="form-control">
                 <option value="" disabled selected>Vali maakond</option>
                 <option>Mango</option>
                 <option>Mingo</option>
                 <option>Bongo</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPostalCode"><h1 className="form-title">Postiindeks <span className="color-red">*</span></h1></label>
+              <input type="name" class="form-control" id="inputPostalCode" placeholder="" required="true" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputCountry"><h1 className="form-title">Riik <span className="color-red">*</span></h1></label>
+              <select class="form-control">
+                <option>Eesti</option>
+                <option>Läti</option>
+                <option>Leedu</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputLastName"><h1 className="form-title">Telefoninumber <span className="color-red">*</span></h1></label>
+              <input type="name" class="form-control" id="inputLastName" placeholder="" required="true" />
+            </div>
+            <div class="form-group col-md-6">
+              <h1 class="form-title">Tarneviis</h1>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked="checked" />
+                <label class="custom-control-label delivery-label d-flex justify-content-between" for="customRadio1">
+                  <h1 className="delivery-left">0.00€</h1><h1 className="text-right delivery-right">Pakiautomaat DPD</h1>
+                </label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" checked="checked" />
+                <label class="custom-control-label delivery-label d-flex justify-content-between" for="customRadio2">
+                  <h1 className="delivery-left">0.00€</h1><h1 className="text-right delivery-right">Pakiautomaat Itella</h1>
+                </label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input" checked="checked" />
+                <label class="custom-control-label delivery-label d-flex justify-content-between" for="customRadio3">
+                  <h1 className="delivery-left">0.00€</h1><h1 className="text-right delivery-right">Pakiautomaat Omniva</h1>
+                </label>
+              </div>
+              <select class="form-control">
+                <option value="" disabled selected>Vali asukoht</option>
+                <option>Eesti</option>
+                <option>Läti</option>
+                <option>Leedu</option>
               </select>
             </div>
           </div>

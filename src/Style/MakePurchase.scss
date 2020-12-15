@@ -82,4 +82,21 @@
     .form-multiple {
         margin-bottom: 8.5px;
     }
+
+    .delivery-label {
+        width: 100%;
+        color: $main;
+        display: flex;
+    }
+
+    .delivery-right {
+        font-size: 18px;
+    }
+    .delivery-left {
+        font-size: 18px;
+    }
+
+    .custom-radio {
+        margin: 7px 20px 7px 0px;
+    }
 }
