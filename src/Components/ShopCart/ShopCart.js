@@ -93,6 +93,46 @@ function ShopCart() {
                             </div>
                         </div>
                     </div>
+                    <div className="product-wrap-mobile">
+                        <div className="title-wrap justify-content-between">
+                            <Link to="/products/sigma_35mm_f_1_4" className="product-name-link-mobile"><h1 className="product-name-mobile">Sigma 35mm f/1.4</h1></Link>
+                            <Link to="/shopping_cart" className="close-icon-link"><i className="fa fa-times close-icon"></i></Link>
+                        </div>
+                        <div className="content-wrap-mobile">
+                            <Link to="/products/sigma_35mm_f_1_4"><div className="product-thumbnail" id="product-thumbnail-2"></div></Link>
+                            <div className="product-info-mobile">
+                                <h1 className="product-quantity-title-mobile">Kogus:</h1>
+                                <div className="col shop-sub-title">
+                                    <div className="minus-btn d-flex justify-content-center">-</div>
+                                    <p className="quantity-number">3</p>
+                                    <div className="plus-btn d-flex justify-content-center">+</div>
+                                </div>
+                                <div className="shopping-cart-mobile-spacer"></div>
+                                <h1 className="product-price product-price-mobile"><span className="mobile-price">Hind:</span> 749.90€</h1>
+                                <h1 className="product-price product-price-mobile"><span className="mobile-price">Summa:</span> 2249.70€</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="product-wrap-mobile">
+                        <div className="title-wrap justify-content-between">
+                            <Link to="/products/delkin_devices_64gb_premium_xqd_malukaart" className="product-name-link-mobile"><h1 className="product-name-mobile">Delkin Devices 64GB Premium XQD Mälukaart</h1></Link>
+                            <Link to="/shopping_cart" className="close-icon-link"><i className="fa fa-times close-icon"></i></Link>
+                        </div>
+                        <div className="content-wrap-mobile">
+                            <Link to="/products/delkin_devices_64gb_premium_xqd_malukaart"><div className="product-thumbnail" id="product-thumbnail-3"></div></Link>
+                            <div className="product-info-mobile">
+                                <h1 className="product-quantity-title-mobile">Kogus:</h1>
+                                <div className="col shop-sub-title">
+                                    <div className="minus-btn d-flex justify-content-center">-</div>
+                                    <p className="quantity-number">2</p>
+                                    <div className="plus-btn d-flex justify-content-center">+</div>
+                                </div>
+                                <div className="shopping-cart-mobile-spacer"></div>
+                                <h1 className="product-price product-price-mobile"><span className="mobile-price">Hind:</span> 749.90€</h1>
+                                <h1 className="product-price product-price-mobile"><span className="mobile-price">Summa:</span> 2249.70€</h1>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="spacer"></div>
                 <div className="purchase-wrap">
