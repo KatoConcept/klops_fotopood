@@ -16,6 +16,7 @@ import Product9 from "./Components/Products/Product9";
 import Product10 from "./Components/Products/Product10";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Contact from "./Components/Contact/Contact";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -78,10 +79,7 @@ function App() {
             <Contact />
           </Route>
           <Route path="/">
-            <h1>Broken 4040</h1>
-            <h1>Broken 4040</h1>
-            <h1>Broken 4040</h1>
-            <h1>Broken 4040</h1>
+            <ErrorPage />
           </Route>
         </Switch>
         <Footer></Footer>
