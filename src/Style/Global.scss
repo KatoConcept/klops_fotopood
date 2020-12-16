@@ -38,6 +38,11 @@ body {
     color: rgb(253, 80, 80);
 }
 
+.carousel-control-prev-icon:after, .carousel-control-next-icon:after {
+    font-family: 'Acme', sans-serif !important;
+    font-size: 80px !important;
+}
+
 @media only screen and (max-width: 750px) {
     .view-width {
         width: 92%;
