@@ -6,6 +6,7 @@ function Product9() {
         <section className="product-page">
             <div className="spacer"></div>
             <div className="main-container view-width">
+            <h1 className="page-title">Nikon akulaadija MH-25a EN-EL15a</h1>
                 <div className="image-slider-wrapper">
                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="false">
                         <div className="carousel-inner">
@@ -38,6 +39,119 @@ function Product9() {
                     <h2 className="product-price">Hind: 74.90€</h2>
                     <button className="btn add-cart-btn">Lisa ostukorvi</button>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div className="product-price-btn-wrap-mobile">
+                    <h2 className="product-price">Hind: 74.90€</h2>
+                    <button className="btn add-cart-btn">Lisa ostukorvi</button>
+                </div>
+
+
+                <div className="accordion-wrapper">
+                    <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo1">
+                                <a class="collapsed accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo1"
+                                    aria-expanded="false" aria-controls="collapseTwo1">
+                                    <h5 class="mb-0 accordion-title">
+                                        Toote põhiinfo <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
+                                data-parent="#accordionEx1">
+                                <div class="card-body">
+                                    <p className="product-description">
+                                        Nikoni EN-EL15 või EN-EL15a akude jaoks
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo2">
+                                <a class="collapsed  accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo21"
+                                    aria-expanded="false" aria-controls="collapseTwo21">
+                                    <h5 class="mb-0 accordion-title">
+                                        Toote ülevaade <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapseTwo21" class="collapse" role="tabpanel" aria-labelledby="headingTwo21"
+                                data-parent="#accordionEx1">
+                                <div class="card-body">
+                                    <p className="overview-description">
+                                        Nikoni MH-25A akulaadija on liitiumioonaku EN-EL15 ja EN-EL15a seinalaadija.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingThree31">
+                                <a class="collapsed accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseThree31"
+                                    aria-expanded="false" aria-controls="collapseThree31">
+                                    <h5 class="mb-0 accordion-title">
+                                        Toote andmed <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapseThree31" class="collapse" role="tabpanel" aria-labelledby="headingThree31"
+                                data-parent="#accordionEx1">
+                                <div class="card-body">
+                                    <h1 className="product-info-title-mobile">Tüüp</h1>
+                                    <h1 className="product-info-subtitle-mobile">Laadija</h1>
+                                    <h1 className="product-info-title-mobile">Sisendpinge </h1>
+                                    <h1 className="product-info-subtitle-mobile">100 - 240V</h1>
+                                    <h1 className="product-info-title-mobile">Väljundpinge</h1>
+                                    <h1 className="product-info-subtitle-mobile">8,4 V</h1>
+                                    <h1 className="product-info-title-mobile">Aku tehnoloogia</h1>
+                                    <h1 className="product-info-subtitle-mobile">Liitium-ioon</h1>
+                                    <h1 className="product-info-title-mobile">Laadimisaeg</h1>
+                                    <h1 className="product-info-subtitle-mobile">155 minutit</h1>
+                                    <h1 className="product-info-title-mobile">Laadimisruumid</h1>
+                                    <h1 className="product-info-subtitle-mobile">1</h1>
+                                    <h1 className="product-info-title-mobile">Kaabli pikkus</h1>
+                                    <h1 className="product-info-subtitle-mobile">1,5m</h1>
+                                    <h1 className="product-info-title-mobile">Värvus</h1>
+                                    <h1 className="product-info-subtitle-mobile">Must</h1>
+                                    <h1 className="product-info-title-mobile">Mõõtmed</h1>
+                                    <h1 className="product-info-subtitle-mobile">95 x 33,5 x 71 mm</h1>
+                                    <h1 className="product-info-title-mobile">Kaal</h1>
+                                    <h1 className="product-info-subtitle-mobile">155 g</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div className="spacer"></div>
                 <div className="product-overview-wrap">
                     <h1 className="overview-title">Toote ülevaade</h1>

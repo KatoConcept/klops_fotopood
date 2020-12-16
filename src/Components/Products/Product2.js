@@ -6,6 +6,7 @@ function Product2() {
         <section className="product-page">
             <div className="spacer"></div>
             <div className="main-container view-width">
+            <h1 className="page-title">Sigma 35mm f/1.4</h1>
                 <div className="image-slider-wrapper">
                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="false">
                         <div className="carousel-inner">

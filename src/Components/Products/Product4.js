@@ -6,6 +6,7 @@ function Product4() {
         <section className="product-page">
             <div className="spacer"></div>
             <div className="main-container view-width">
+            <h1 className="page-title">Delkin Devices 64GB Premium XQD Mälukaart</h1>
                 <div className="image-slider-wrapper">
                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="false">
                         <div className="carousel-inner">

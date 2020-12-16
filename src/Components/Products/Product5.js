@@ -6,6 +6,7 @@ function Product5() {
         <section className="product-page">
             <div className="spacer"></div>
             <div className="main-container view-width">
+            <h1 className="page-title">Nikon Nikkor Z 50mm f/1.8 S</h1>
                 <div className="image-slider-wrapper">
                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="false">
                         <div className="carousel-inner">

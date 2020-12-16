@@ -6,6 +6,7 @@ function Product10() {
         <section className="product-page">
             <div className="spacer"></div>
             <div className="main-container view-width">
+            <h1 className="page-title">Nikon välklamp SB-700</h1>
                 <div className="image-slider-wrapper">
                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="false">
                         <div className="carousel-inner">
@@ -38,6 +39,160 @@ function Product10() {
                     <h2 className="product-price">Hind: 329.90€</h2>
                     <button className="btn add-cart-btn">Lisa ostukorvi</button>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div className="product-price-btn-wrap-mobile">
+                    <h2 className="product-price">Hind: 329.90€</h2>
+                    <button className="btn add-cart-btn">Lisa ostukorvi</button>
+                </div>
+
+
+                <div className="accordion-wrapper">
+                    <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo1">
+                                <a class="collapsed accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo1"
+                                    aria-expanded="false" aria-controls="collapseTwo1">
+                                    <h5 class="mb-0 accordion-title">
+                                        Toote põhiinfo <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
+                                data-parent="#accordionEx1">
+                                <div class="card-body">
+                                    <p className="product-description">
+                                        Täiendatud funktsionaalsusega kompaktne välklamp
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo2">
+                                <a class="collapsed  accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo21"
+                                    aria-expanded="false" aria-controls="collapseTwo21">
+                                    <h5 class="mb-0 accordion-title">
+                                        Toote ülevaade <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapseTwo21" class="collapse" role="tabpanel" aria-labelledby="headingTwo21"
+                                data-parent="#accordionEx1">
+                                <div class="card-body">
+                                    <p className="overview-description">
+                                        Mitmekülgne, lihtsalt kasutatav välk, mis ühildub Nikoni FX- ja DX-formaadis peegelkaameratega ja Nikoni Creative Lightning. SB-700 kasutamine on lihtne ja intuitiivne ning valgustuse tugevuse ja suuna kontrollimine äärmiselt mugav.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingThree31">
+                                <a class="collapsed accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseThree31"
+                                    aria-expanded="false" aria-controls="collapseThree31">
+                                    <h5 class="mb-0 accordion-title">
+                                        Toote andmed <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapseThree31" class="collapse" role="tabpanel" aria-labelledby="headingThree31"
+                                data-parent="#accordionEx1">
+                                <div class="card-body">
+                                    <h1 className="product-info-title-mobile">Juhtarv</h1>
+                                    <h1 className="product-info-subtitle-mobile">28 (m, ISO 100)</h1>
+                                    <h1 className="product-info-title-mobile">Valguse temperatuur </h1>
+                                    <h1 className="product-info-subtitle-mobile">5600 K</h1>
+                                    <h1 className="product-info-title-mobile">Sobivus</h1>
+                                    <h1 className="product-info-subtitle-mobile">Nikon</h1>
+                                    <h1 className="product-info-title-mobile">Fookuskauguste katvus</h1>
+                                    <h1 className="product-info-subtitle-mobile">24 - 120 mm</h1>
+                                    <h1 className="product-info-title-mobile">Automaatne suum</h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Integreeritud reflektorkaart</h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Liikumine vertikaalselt</h1>
+                                    <h1 className="product-info-subtitle-mobile">-7° - +90°</h1>
+                                    <h1 className="product-info-title-mobile">Liikumine horisontaalselt</h1>
+                                    <h1 className="product-info-subtitle-mobile">360°</h1>
+                                    <h1 className="product-info-title-mobile">Modelleeriv valgus</h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Teravustamise abivalgus</h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Ekraani tüüp</h1>
+                                    <h1 className="product-info-subtitle-mobile">Punkt-maatriks</h1>
+                                    <h1 className="product-info-title-mobile">Taustvalgus </h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Välgu tööulatuse näit</h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Välgu valmisoleku näit</h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Automaatne särijuhtimine</h1>
+                                    <h1 className="product-info-subtitle-mobile">i-TTL </h1>
+                                    <h1 className="product-info-title-mobile">TTL välgurežiim </h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">TTL orjarežiim</h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Manuaalne välgurežiim </h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Automaatne täitevälk</h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Välgu kahveldus </h1>
+                                    <h1 className="product-info-subtitle-mobile">Ei</h1>
+                                    <h1 className="product-info-title-mobile">Vastupidavus</h1>
+                                    <h1 className="product-info-subtitle-mobile">230 välgatust</h1>
+                                    <h1 className="product-info-title-mobile">Laadimisaeg </h1>
+                                    <h1 className="product-info-subtitle-mobile">0,1 – 3,5 sekundit</h1>
+                                    <h1 className="product-info-title-mobile">Energiasäästurežiim </h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Automaatne väljalülitus</h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Mõõdud </h1>
+                                    <h1 className="product-info-subtitle-mobile">71 × 126 × 104,5 mm</h1>
+                                    <h1 className="product-info-title-mobile">Kaal</h1>
+                                    <h1 className="product-info-subtitle-mobile">360 g</h1>
+                                    <h1 className="product-info-title-mobile">Korpuse materjal</h1>
+                                    <h1 className="product-info-subtitle-mobile">Plastik</h1>
+                                    <h1 className="product-info-title-mobile">Välgukinga materjal</h1>
+                                    <h1 className="product-info-subtitle-mobile">Metall</h1>
+                                    <h1 className="product-info-title-mobile">Ilmastikukindlus </h1>
+                                    <h1 className="product-info-subtitle-mobile">Puudub</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div className="spacer"></div>
                 <div className="product-overview-wrap">
                     <h1 className="overview-title">Toote ülevaade</h1>

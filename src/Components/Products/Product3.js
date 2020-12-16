@@ -6,6 +6,7 @@ function Product3() {
         <section className="product-page">
             <div className="spacer"></div>
             <div className="main-container view-width">
+            <h1 className="page-title">EN-EL15 Lithium-Ion Battery Pack (7.0V, 1900mAh)</h1>
                 <div className="image-slider-wrapper">
                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="false">
                         <div className="carousel-inner">
