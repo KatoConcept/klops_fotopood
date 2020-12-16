@@ -42,6 +42,114 @@ function Product3() {
                     <h2 className="product-price">Hind: 29.90€</h2>
                     <button className="btn add-cart-btn">Lisa ostukorvi</button>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+                <div className="product-price-btn-wrap-mobile">
+                    <h2 className="product-price">Hind: 29.90€</h2>
+                    <button className="btn add-cart-btn">Lisa ostukorvi</button>
+                </div>
+
+
+                <div className="accordion-wrapper">
+                    <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo1">
+                                <a class="collapsed accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo1"
+                                    aria-expanded="false" aria-controls="collapseTwo1">
+                                    <h5 class="mb-0 accordion-title">
+                                        Toote põhiinfo <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
+                                data-parent="#accordionEx1">
+                                <div class="card-body">
+                                    <p className="product-description">
+                                        Kvaliteetne liitium-ioon aku <br/>
+                                        Nikoni hübriid- ja peegelkaameratele<br/>
+                                        Suur 1900 mAh mahutavus<br/>
+                                        Vastupidav ka pika kasutamise järel<br/>
+                                        Kasuta tagavara- või asendusakuna<br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo2">
+                                <a class="collapsed  accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo21"
+                                    aria-expanded="false" aria-controls="collapseTwo21">
+                                    <h5 class="mb-0 accordion-title">
+                                        Toote ülevaade <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapseTwo21" class="collapse" role="tabpanel" aria-labelledby="headingTwo21"
+                                data-parent="#accordionEx1">
+                                <div class="card-body">
+                                    <p className="overview-description">
+                                        Kvaliteetne liitium-ioon aku Nikon hübriid- ja peegelkaameratele, mis püsib ka pikaaegse kasutamise järel sama võimekana kui uuena. <br/>
+                                        Sobib järgnevatele kaameratele: D600, D610, D800, D7000, D7100, D7200, Nikon 1 V1 <br/>
+                                        Sobib järgnevatele tarvikutele: MB-D11 akutald, MB-D12 akutald, MB-D14 akutald, MB-D15 akutald
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingThree31">
+                                <a class="collapsed accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseThree31"
+                                    aria-expanded="false" aria-controls="collapseThree31">
+                                    <h5 class="mb-0 accordion-title">
+                                        Toote andmed <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapseThree31" class="collapse" role="tabpanel" aria-labelledby="headingThree31"
+                                data-parent="#accordionEx1">
+                                <div class="card-body">
+                                    <h1 className="product-info-title-mobile">Sobivus</h1>
+                                    <h1 className="product-info-subtitle-mobile">Nikon</h1>
+                                    <h1 className="product-info-title-mobile">Aku tüüp </h1>
+                                    <h1 className="product-info-subtitle-mobile">Liitium-ioon</h1>
+                                    <h1 className="product-info-title-mobile">Mahutavus </h1>
+                                    <h1 className="product-info-subtitle-mobile">1900 mAh </h1>
+                                    <h1 className="product-info-title-mobile">Väljundpinge</h1>
+                                    <h1 className="product-info-subtitle-mobile">7,0 V</h1>
+                                    <h1 className="product-info-title-mobile">Sobiv laadija</h1>
+                                    <h1 className="product-info-subtitle-mobile">MH-25</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div className="spacer"></div>
                 <div className="product-overview-wrap">
                     <h1 className="overview-title">Toote ülevaade</h1>
