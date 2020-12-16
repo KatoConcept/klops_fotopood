@@ -11,34 +11,34 @@ function Home() {
             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img className="d-block w-100" src="../img/product-1.jpg" alt="1 slide" />
+                  <Link to="/products/nikon_z7"><img className="d-block w-100" src="../img/product-1.jpg" alt="1 slide" /></Link>
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block w-100" src="../img/product-2.jpg" alt="2 slide" />
+                <Link to="/products/sigma_35mm_f_1_4"><img className="d-block w-100" src="../img/product-2.jpg" alt="2 slide" /></Link>
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block w-100" src="../img/product-3.jpg" alt="3 slide" />
+                <Link to="/products/en-el15_lithium-ion_battery_pack_7_0V_1900mah"><img className="d-block w-100" src="../img/product-3.jpg" alt="3 slide" /></Link>
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block w-100" src="../img/product-4.jpg" alt="4 slide" />
+                <Link to="/products/delkin_devices_64gb_premium_xqd_malukaart"><img className="d-block w-100" src="../img/product-4.jpg" alt="4 slide" /></Link>
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block w-100" src="../img/product-5.jpg" alt="5 slide" />
+                <Link to="/products/nikon_nikkor_z_50mm_f_1_8_s"><img className="d-block w-100" src="../img/product-5.jpg" alt="5 slide" /></Link>
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block w-100" src="../img/product-6.jpg" alt="6 slide" />
+                <Link to="/products/nikon_ftz_lens_adapter_f_f-lens_to_z-kamera"><img className="d-block w-100" src="../img/product-6.jpg" alt="6 slide" /></Link>
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block w-100" src="../img/product-7.jpg" alt="7 slide" />
+                <Link to="/products/kata_lite-433_dl_fotokott"><img className="d-block w-100" src="../img/product-7.jpg" alt="7 slide" /></Link>
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block w-100" src="../img/product-8.jpg" alt="8 slide" />
+                <Link to="/products/sony_xqd_sd_kaardilugeja"><img className="d-block w-100" src="../img/product-8.jpg" alt="8 slide" /></Link>
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block w-100" src="../img/product-9.jpg" alt="9 slide" />
+                <Link to="/products/nikon_akulaadija_mh-25a_en-el15a"><img className="d-block w-100" src="../img/product-9.jpg" alt="9 slide" /></Link>
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block w-100" src="../img/product-10.jpg" alt="10 slide" />
+                <Link to="/products/nikon_valklamp_sb-700"><img className="d-block w-100" src="../img/product-10.jpg" alt="10 slide" /></Link>
                 </div>
               </div>
               <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
