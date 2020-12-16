@@ -40,43 +40,43 @@ function About() {
           <div className="employee-card">
             <div className="employee-photo" id="employee-1"></div>
             <div className="employee-info">
-              <h1 className="employee-name">Mart Sander</h1>
-              <h2 className="employee-job">Fotograaf</h2>
+              <h1 className="employee-name">Liina Vahter</h1>
+              <h2 className="employee-job">Müügijuht</h2>
             </div>
           </div>
           <div className="employee-card">
             <div className="employee-photo" id="employee-2"></div>
             <div className="employee-info">
               <h1 className="employee-name">Mart Sander</h1>
-              <h2 className="employee-job">Fotograaf</h2>
+              <h2 className="employee-job">Klienditeenindaja</h2>
             </div>
           </div>
           <div className="employee-card">
             <div className="employee-photo" id="employee-3"></div>
             <div className="employee-info">
-              <h1 className="employee-name">Mart Sander</h1>
+              <h1 className="employee-name">Kaire Vilgats</h1>
               <h2 className="employee-job">Fotograaf</h2>
             </div>
           </div>
           <div className="employee-card">
             <div className="employee-photo" id="employee-4"></div>
             <div className="employee-info">
-              <h1 className="employee-name">Mart Sander</h1>
-              <h2 className="employee-job">Fotograaf</h2>
+              <h1 className="employee-name">Märt Avandi</h1>
+              <h2 className="employee-job">Koristaja</h2>
             </div>
           </div>
           <div className="employee-card">
             <div className="employee-photo" id="employee-5"></div>
             <div className="employee-info">
-              <h1 className="employee-name">Mart Sander</h1>
-              <h2 className="employee-job">Fotograaf</h2>
+              <h1 className="employee-name">Hannes Võrno</h1>
+              <h2 className="employee-job">Logistik</h2>
             </div>
           </div>
           <div className="employee-card">
             <div className="employee-photo" id="employee-6"></div>
             <div className="employee-info">
-              <h1 className="employee-name">Mart Sander</h1>
-              <h2 className="employee-job">Fotograaf</h2>
+              <h1 className="employee-name">Koit Toome</h1>
+              <h2 className="employee-job">Programmeerija</h2>
             </div>
           </div>
         </div>
