@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function ShopCart() {
   document.title = "Klõps | Ostukorv";
@@ -75,7 +75,7 @@ function ShopCart() {
             <div className="row-wrapper-mobile">
                 <div className="title-wrap justify-content-between">
                     <h1 className="product-name-mobile">Nikon Z7</h1>
-                    <a href="" className="close-icon-link"><i className="fa fa-times close-icon"></i></a>
+                    <Link to="/shopping_cart" className="close-icon-link"><i className="fa fa-times close-icon"></i></Link>
                 </div>
             </div>
             <div className="spacer"></div>
