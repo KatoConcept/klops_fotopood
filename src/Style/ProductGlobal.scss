@@ -152,4 +152,66 @@
     color: white;
     text-shadow: 0px 0px 20px #000000;
     }
+
+    .card {
+        background-color: $bg-color;
+        border: none;
+        margin-top: 20px;
+    }
+    .card-header {
+        border-bottom: 1px solid black;
+        background-color: $bg-color;
+        padding-left: 0;
+    }
+    .accordion-title {
+        color: $main;
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 2px;
+    }
+    .accordion-link:hover {
+        text-decoration: none;
+    }
+    .card-body {
+
+        padding: 15px 0px;
+
+        .custom-control-label  {
+            margin: 20px 30px 0px 0px;
+        }
+    }
+    .accordion-wrapper {
+        width: 100%;
+        display: none;
+    }
+    .product-info-subtitle-mobile, .product-info-title-mobile {
+        font-size: 16px;
+        color: $main;
+    }
+    .product-info-title-mobile {
+        margin-top: 30px;
+        font-weight: 600;
+    }
+    .product-info-subtitle-mobile {
+        font-weight: 400;
+    }
+
+
+    @media only screen and (max-width: 1306px) {
+        .accordion-wrapper {
+            display: unset;
+        }
+        .product-main-info-wrap {
+            display: none;
+        }
+        .product-overview-wrap {
+            display: none;
+        }
+        .product-info-wrap {
+            display: none;
+        }
+        .overview-description {
+            width: 90%;
+        }
+    }
 }
