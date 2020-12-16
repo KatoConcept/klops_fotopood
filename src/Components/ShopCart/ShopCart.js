@@ -24,7 +24,7 @@ function ShopCart() {
 
                     </div>
                     <div className="col shop-sub-title">
-                        <h1 className="product-price">2799.90€</h1>
+                        <h1 className="product-price"><span className="mobile-price">Hind:</span> 2799.90€</h1>
                     </div>
                     <div className="col shop-sub-title">
                         <div className="minus-btn d-flex justify-content-center">-</div>
@@ -32,7 +32,7 @@ function ShopCart() {
                         <div className="plus-btn d-flex justify-content-center">+</div>
                     </div>
                     <div className="col shop-sub-title">
-                        <h1 className="product-price">2799.90€</h1>
+                        <h1 className="product-price"><span className="mobile-price">Summa:</span> 2799.90€</h1>
                     </div>
                 </div>
                 <div className="row margin-top">
@@ -42,7 +42,7 @@ function ShopCart() {
 
                     </div>
                     <div className="col shop-sub-title">
-                        <h1 className="product-price">749.90€</h1>
+                        <h1 className="product-price"><span className="mobile-price">Hind:</span> 749.90€</h1>
                     </div>
                     <div className="col shop-sub-title">
                         <div className="minus-btn d-flex justify-content-center">-</div>
@@ -50,7 +50,7 @@ function ShopCart() {
                         <div className="plus-btn d-flex justify-content-center">+</div>
                     </div>
                     <div className="col shop-sub-title">
-                        <h1 className="product-price">2249.70€</h1>
+                        <h1 className="product-price"><span className="mobile-price">Summa:</span> 2249.70€</h1>
                     </div>
                 </div>
                 <div className="row margin-top">
@@ -60,7 +60,7 @@ function ShopCart() {
 
                     </div>
                     <div className="col shop-sub-title">
-                        <h1 className="product-price">119.90€</h1>
+                        <h1 className="product-price"><span className="mobile-price">Hind:</span> 119.90€</h1>
                     </div>
                     <div className="col shop-sub-title">
                         <div className="minus-btn d-flex justify-content-center">-</div>
@@ -68,8 +68,14 @@ function ShopCart() {
                         <div className="plus-btn d-flex justify-content-center">+</div>
                     </div>
                     <div className="col shop-sub-title">
-                        <h1 className="product-price">239.80€</h1>
+                        <h1 className="product-price"><span className="mobile-price">Summa:</span> 239.80€</h1>
                     </div>
+                </div>
+            </div>
+            <div className="row-wrapper-mobile">
+                <div className="title-wrap justify-content-between">
+                    <h1 className="product-name-mobile">Nikon Z7</h1>
+                    <a href="" className="close-icon-link"><i className="fa fa-times close-icon"></i></a>
                 </div>
             </div>
             <div className="spacer"></div>

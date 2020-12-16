@@ -383,6 +383,7 @@ function Products() {
           </div>
         </div>
       </div>
+      <div className="spacer"></div>
     </section>
   );
 }
