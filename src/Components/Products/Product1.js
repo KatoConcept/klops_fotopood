@@ -6,6 +6,7 @@ function Product1() {
         <section className="product-page">
             <div className="spacer"></div>
             <div className="main-container view-width">
+            <h1 className="page-title">Nikon Z7</h1>
                 <div className="image-slider-wrapper">
                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="false">
                         <div className="carousel-inner">
@@ -42,7 +43,7 @@ function Product1() {
                     <h2 className="product-price">Hind: 2799.90€</h2>
                     <button className="btn add-cart-btn">Lisa ostukorvi</button>
                 </div>
-                <div className="spacer"></div>
+                
 
 
 
@@ -54,18 +55,18 @@ function Product1() {
 
 
 
+
+
+                
+                <div className="product-price-btn-wrap-mobile">
+                    <h2 className="product-price">Hind: 2799.90€</h2>
+                    <button className="btn add-cart-btn">Lisa ostukorvi</button>
+                </div>
 
 
                 <div className="accordion-wrapper">
-
-
-
                     <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
-
-
                         <div class="card">
-
-
                             <div class="card-header" role="tab" id="headingTwo1">
                                 <a class="collapsed accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo1"
                                     aria-expanded="false" aria-controls="collapseTwo1">
@@ -74,8 +75,6 @@ function Product1() {
                                     </h5>
                                 </a>
                             </div>
-
-
                             <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
                                 data-parent="#accordionEx1">
                                 <div class="card-body">
@@ -88,12 +87,8 @@ function Product1() {
                                     </p>
                                 </div>
                             </div>
-
                         </div>
-
                         <div class="card">
-
-
                             <div class="card-header" role="tab" id="headingTwo2">
                                 <a class="collapsed  accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo21"
                                     aria-expanded="false" aria-controls="collapseTwo21">
@@ -102,8 +97,6 @@ function Product1() {
                                     </h5>
                                 </a>
                             </div>
-
-
                             <div id="collapseTwo21" class="collapse" role="tabpanel" aria-labelledby="headingTwo21"
                                 data-parent="#accordionEx1">
                                 <div class="card-body">
@@ -116,9 +109,7 @@ function Product1() {
                             </div>
 
                         </div>
-
                         <div class="card">
-
                             <div class="card-header" role="tab" id="headingThree31">
                                 <a class="collapsed accordion-link" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseThree31"
                                     aria-expanded="false" aria-controls="collapseThree31">
@@ -127,20 +118,79 @@ function Product1() {
                                     </h5>
                                 </a>
                             </div>
-
                             <div id="collapseThree31" class="collapse" role="tabpanel" aria-labelledby="headingThree31"
                                 data-parent="#accordionEx1">
                                 <div class="card-body">
                                     <h1 className="product-info-title-mobile">Toote tüüp</h1>
                                     <h1 className="product-info-subtitle-mobile">Digitaalsed fotokaamerad</h1>
+                                    <h1 className="product-info-title-mobile">Kaubamärk </h1>
+                                    <h1 className="product-info-subtitle-mobile">Nikon</h1>
+                                    <h1 className="product-info-title-mobile">Kaal</h1>
+                                    <h1 className="product-info-subtitle-mobile">585 g </h1>
+                                    <h1 className="product-info-title-mobile">Megapikslite arv</h1>
+                                    <h1 className="product-info-subtitle-mobile">46.89</h1>
+                                    <h1 className="product-info-title-mobile">Maksimaalne eraldusvõime</h1>
+                                    <h1 className="product-info-subtitle-mobile">8256 x 5504</h1>
+                                    <h1 className="product-info-title-mobile">Anduri tüüp </h1>
+                                    <h1 className="product-info-subtitle-mobile">CMOS</h1>
+                                    <h1 className="product-info-title-mobile">Kaamera tundlikkus (ISO)</h1>
+                                    <h1 className="product-info-subtitle-mobile">64 - 25600</h1>
+                                    <h1 className="product-info-title-mobile">Valge värvi bilanss</h1>
+                                    <h1 className="product-info-subtitle-mobile">Auto, 8 positsiooni + 1 käsitsi</h1>
+                                    <h1 className="product-info-title-mobile">Pildi formaadid</h1>
+                                    <h1 className="product-info-subtitle-mobile">Linear PCM</h1>
+                                    <h1 className="product-info-title-mobile">Katiku kiirus</h1>
+                                    <h1 className="product-info-subtitle-mobile">30 sek. - 1/8000 sek.</h1>
+                                    <h1 className="product-info-title-mobile">Optika</h1>
+                                    <h1 className="product-info-subtitle-mobile">Ei ole komplektis</h1>
+                                    <h1 className="product-info-title-mobile">Käsitsi fokuseerimine </h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Käsitsi fokuseerimine </h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Autofokuseerimise tüüp</h1>
+                                    <h1 className="product-info-subtitle-mobile">TTL Autofokuseerimine</h1>
+                                    <h1 className="product-info-title-mobile">Diafragma</h1>
+                                    <h1 className="product-info-subtitle-mobile">Sõltub valitud objektiivist </h1>
+                                    <h1 className="product-info-title-mobile">Videootsija </h1>
+                                    <h1 className="product-info-subtitle-mobile">On (elektrooniline pildiotsija)</h1>
+                                    <h1 className="product-info-title-mobile">Puutetundlik ekraan</h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Ekraani diagonaal </h1>
+                                    <h1 className="product-info-subtitle-mobile">3.2 "</h1>
+                                    <h1 className="product-info-title-mobile">Ekraani eraldusvõime punktides</h1>
+                                    <h1 className="product-info-subtitle-mobile">210000</h1>
+                                    <h1 className="product-info-title-mobile">Välk </h1>
+                                    <h1 className="product-info-subtitle-mobile">Puudub</h1>
+                                    <h1 className="product-info-title-mobile">Võimalus ühendada väline välk</h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Särituse kompenseerimine </h1>
+                                    <h1 className="product-info-subtitle-mobile">- 5 EV kuni + 5 EV sammuga 1/2 EV või 1/3 EV</h1>
+                                    <h1 className="product-info-title-mobile">Pildistamisrežiimid  </h1>
+                                    <h1 className="product-info-subtitle-mobile">4K</h1>
+                                    <h1 className="product-info-title-mobile">Videoproportsioon</h1>
+                                    <h1 className="product-info-subtitle-mobile">16:9, 1:1, 3:2, 4:5 </h1>
+                                    <h1 className="product-info-title-mobile">Videosalvestuse kiirus </h1>
+                                    <h1 className="product-info-subtitle-mobile">1080p@24fps - 1080p@120fps, 2160p@24fps - 2160p@30fps</h1>
+                                    <h1 className="product-info-title-mobile">Mikrofon </h1>
+                                    <h1 className="product-info-subtitle-mobile">On (Stereo)</h1>
+                                    <h1 className="product-info-title-mobile">Sisemälu </h1>
+                                    <h1 className="product-info-subtitle-mobile">Ei</h1>
+                                    <h1 className="product-info-title-mobile">Liidesed </h1>
+                                    <h1 className="product-info-subtitle-mobile">Mini HDMI, USB, USB 3.0</h1>
+                                    <h1 className="product-info-title-mobile">Navigatsiooni (GPS) funktsioon </h1>
+                                    <h1 className="product-info-subtitle-mobile">Ei</h1>
+                                    <h1 className="product-info-title-mobile">WiFi-liides </h1>
+                                    <h1 className="product-info-subtitle-mobile">Jah</h1>
+                                    <h1 className="product-info-title-mobile">Toide </h1>
+                                    <h1 className="product-info-subtitle-mobile">Aku</h1>
+                                    <h1 className="product-info-title-mobile">3D-pildistamine </h1>
+                                    <h1 className="product-info-subtitle-mobile">Ei</h1>
+                                    <h1 className="product-info-title-mobile">Täiendav info </h1>
+                                    <h1 className="product-info-subtitle-mobile">Bluetooth</h1>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
-
-
                 </div>
 
 

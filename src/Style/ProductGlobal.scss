@@ -195,7 +195,13 @@
     .product-info-subtitle-mobile {
         font-weight: 400;
     }
+    .page-title {
+        display: none;
+    }
 
+    .product-price-btn-wrap-mobile {
+        display: none;
+    }
 
     @media only screen and (max-width: 1306px) {
         .accordion-wrapper {
@@ -212,6 +218,25 @@
         }
         .overview-description {
             width: 90%;
+        }
+        .page-title {
+            display: unset;
+            width: 100%;
+        }
+        .product-price-btn-wrap-mobile {
+            display: unset;
+
+            .product-price {
+                font-size: 24px;
+            }
+
+            .add-cart-btn {
+                font-size: 18px;
+                width: 200px;
+            }
+        }
+        .image-slider-wrapper {
+            width: 100%;
         }
     }
 }
