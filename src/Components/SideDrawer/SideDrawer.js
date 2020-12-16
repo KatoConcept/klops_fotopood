@@ -19,7 +19,7 @@ function SideDrawer() {
                             </Link>
                         </li>
                         <li className="nav_item">
-                            <Link to="/Linkbout" className="nav_link" onClick={clickHandler}>
+                            <Link to="/about" className="nav_link" onClick={clickHandler}>
                                 MEIST
                             </Link>
                         </li>

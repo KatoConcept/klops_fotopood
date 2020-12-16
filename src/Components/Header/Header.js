@@ -27,7 +27,7 @@ function Header() {
             </Link>
           </li>
           <li className="nav_item">
-            <Link to="/Linkbout" className="nav_link">
+            <Link to="/about" className="nav_link">
               MEIST
             </Link>
           </li>
