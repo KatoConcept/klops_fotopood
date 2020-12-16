@@ -188,7 +188,7 @@
         }
     }
     .shopping-cart-mobile-spacer {
-        height: 50px;
+        // height: 50px;
     }
     .product-price-mobile {
         font-size: 20px;
@@ -203,6 +203,11 @@
         }
         .mobile-price {
             display: unset;
+        }
+        .product-thumbnail {
+            height: 150px;
+            width: 150px;
+            min-width: 150px;
         }
     }
 }
