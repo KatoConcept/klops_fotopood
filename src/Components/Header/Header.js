@@ -12,7 +12,10 @@ function Header() {
       </div>
       <div className="navbar-container view-width">
 
-        <Link to="/">
+        <Link to="/" className="side-drawer-logo">
+          <img src="../img/logo1_png.png" height="30px" alt="" onClick={clickHandler} />
+        </Link>
+        <Link to="/" className="normal-menu-logo">
           <img src="../img/logo1_png.png" height="30px" alt="" />
         </Link>
         <ul className="nav_list">
