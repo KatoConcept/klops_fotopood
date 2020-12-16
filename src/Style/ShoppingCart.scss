@@ -214,5 +214,18 @@
             width: 150px;
             min-width: 150px;
         }
+        .price-wrap {
+            width: 100%;
+            float: unset;
+            text-align: center;
+        }
+        .purchase-btn {
+            float: unset;
+            font-size: 18px;
+            width: 220px;
+        }
+        .total-price {
+            font-size: 26px;
+        }
     }
 }
