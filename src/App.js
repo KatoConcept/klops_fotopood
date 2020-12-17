@@ -19,6 +19,7 @@ import About from "./Components/About/About";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 // import Contact from "./Components/Contact/Contact";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
+import BackToTopButton from "./Components/BackToTopButton/BackToTopButton";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
@@ -29,6 +30,7 @@ function App() {
         <ScrollToTop />
       <Header></Header>
       <SideDrawer />
+      <BackToTopButton />
         <Switch>
           <Route path="/about">
             <About />

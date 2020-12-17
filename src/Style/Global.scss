@@ -43,6 +43,40 @@ body {
     font-size: 80px !important;
 }
 
+.back-to-top-btn {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background-color: $main;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    // cursor: pointer;
+    right: 5%;
+    bottom: 5%;
+    z-index: 1;
+    transition: all 0.4s ease;
+    transform: scale(0);
+    opacity: 0;
+    pointer-events: none;
+
+    i {
+        color: white;
+        margin-top: 15px;
+    }
+}
+
+.back-to-top-btn.active {
+    opacity: 1;
+    pointer-events: all;
+    cursor: pointer;
+    transform: scale(1)
+}
+
+.back-to-top-btn:hover {
+    background-color: $main-hover;
+}
+
 @media only screen and (max-width: 750px) {
     .view-width {
         width: 92%;
