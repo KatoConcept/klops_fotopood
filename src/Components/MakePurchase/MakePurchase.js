@@ -87,9 +87,21 @@ function MakePurchase() {
               <label for="inputCounty"><h1 className="form-title">Maakond <span className="color-red">*</span></h1></label>
               <select class="form-control">
                 <option value="" disabled selected>Vali maakond</option>
-                <option>Mango</option>
-                <option>Mingo</option>
-                <option>Bongo</option>
+                <option>Harju maakond</option>
+                <option>Tartu maakond</option>
+                <option>Ida-Viru maakond</option>
+                <option>Pärnu maakond</option>
+                <option>Lääne-viru maakond</option>
+                <option>Viljandi maakond</option>
+                <option>Rapla maakond</option>
+                <option>Võru maakond</option>
+                <option>Saare maakond</option>
+                <option>Jõgeva maakond</option>
+                <option>Järva maakond</option>
+                <option>Valga maakond</option>
+                <option>Põlva maakond</option>
+                <option>Lääne maakond</option>
+                <option>Hiiu maakond</option>
               </select>
             </div>
             <div class="form-group col-md-6">

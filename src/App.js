@@ -17,7 +17,7 @@ import Product10 from "./Components/Products/Product10";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
-import Contact from "./Components/Contact/Contact";
+// import Contact from "./Components/Contact/Contact";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import { Link } from "react-router-dom";
@@ -75,9 +75,9 @@ function App() {
           <Route exact path="/products/nikon_valklamp_sb-700">
             <Product10 />
           </Route>
-          <Route exact path="/contact">
+          {/* <Route exact path="/contact">
             <Contact />
-          </Route>
+          </Route> */}
           <Route path="/">
             <ErrorPage />
           </Route>
