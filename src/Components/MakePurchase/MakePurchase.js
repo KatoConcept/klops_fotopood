@@ -149,9 +149,16 @@ function MakePurchase() {
               </div>
               <select class="form-control">
                 <option value="" disabled selected>Vali asukoht</option>
-                <option>Eesti</option>
-                <option>Läti</option>
-                <option>Leedu</option>
+                <option>Tallinna Akadeemia Coop Konsumi pakiautomaat</option>
+                <option>Tallinna Arsenali keskuse pakiautomaat</option>
+                <option>Tallinna Balti Jaama pakiautomaat</option>
+                <option>Tallinna Coca-Cola Plaza pakiautomaat </option>
+                <option>Tallinna Ehitajate tee Grossi pakiautomaat </option>
+                <option>Tallinna Ehitajate tee Maxima XXX pakiautomaat</option>
+                <option>Tallinna Haabersti Rimi pakiautomaat</option>
+                <option>Tallinna Idakeskuse pakiautomaat </option>
+                <option>Tallinna Juhkentali Rimi pakiautomaat</option>
+                <option>Tallinna Järve Keskuse pakiautomaat</option>
               </select>
             </div>
           </div>
